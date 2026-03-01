@@ -3,6 +3,7 @@ package tests;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
@@ -16,7 +17,7 @@ public class Birds {
     static void BeforeAll(){
         Configuration.browserSize = "1400*450";
         Configuration.baseUrl = "https://bb1birds.ru/";
-        Configuration.holdBrowserOpen = true;
+        //Configuration.holdBrowserOpen = false;
     }
 
     @Test
@@ -25,6 +26,7 @@ public class Birds {
         //$(".cookie-alert__content__text").shouldBe(hidden);
         $(withText("Мы используем файлы cookie. ")).shouldBe(visible);
         //$(withText("Мы используем файлы cookie. ")).shouldBe(hidden);
+        Configuration.holdBrowserOpen=false;
     }
 
     @Test
@@ -37,5 +39,27 @@ public class Birds {
         $("[name=USER_PASSWORD]").setValue("4545df");
         $("input[type=submit][name=Login]").click();
         $(withText("Неверный логин или пароль.")).shouldBe(visible);
+        Configuration.holdBrowserOpen=false;
+    }
+
+    @Test
+    void fieldLoginEmpty(){
+        open("https://bb1birds.ru/");
+        $(".i-user").click();
+        $("[name=USER_PASSWORD]").setValue("123456789");
+        $("input[type=submit][name=Login]").click();
+        $(withText("Неверный логин или пароль.")).shouldBe(visible);
+        Configuration.holdBrowserOpen=false;
+
+    }
+
+    @Test
+    void fieldPasswordEmpty(){
+        open("https://bb1birds.ru/");
+        $(".i-user").click();
+        $("[name=USER_LOGIN]").setValue("логин-почта");
+        $("input[type=submit][name=Login]").click();
+        $(withText("Неверный логин или пароль.")).shouldBe(visible);
+        Configuration.holdBrowserOpen=false;
     }
 }
