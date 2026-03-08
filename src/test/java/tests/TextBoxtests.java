@@ -5,22 +5,14 @@ import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.WebElementCondition;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-
 import java.io.File;
-
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
 
 
-public class TextBoxtests {
+public class TextBoxtests extends TestBase {
 
-    @BeforeAll
-    static void BeforeAll(){
-        Configuration.browserSize = "1400*450";
-        Configuration.baseUrl = "https://demoqa.com";
-        Configuration.holdBrowserOpen = true;
-    }
 
     @Test
     void fillFormTests(){
@@ -48,9 +40,5 @@ public class TextBoxtests {
         $("#example-modal-sizes-title-lg").shouldHave(text("Thanks for submitting the form"));
         //$(".table-responsive").shouldHave(text("89998886655"), text("test@mail.ru"));
         //Selenide.refresh();
-
-
     }
-
-
 }
