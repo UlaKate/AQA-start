@@ -2,6 +2,7 @@ package pages;
 
 import com.codeborne.selenide.SelenideElement;
 import pages.components.CalendarComponent;
+import pages.components.CheckFormComponent;
 
 import java.io.File;
 
@@ -23,8 +24,10 @@ public class RegistrationPage {
             hobbiesCheckbox = $("#hobbiesWrapper"),
             stateCityList = $("#react-select-3-input"),
             cityList = $("#react-select-4-input"),
-            uploadFile = $("#uploadPicture");
+            uploadFile = $("#uploadPicture"),
+            submitButton = $("#submit");
             CalendarComponent component = new CalendarComponent();
+            CheckFormComponent table = new CheckFormComponent();
 
 
     public RegistrationPage openPage(){
@@ -106,5 +109,18 @@ public class RegistrationPage {
         uploadFile.uploadFromClasspath(value);
 
         return this;
+    }
+
+    public RegistrationPage confirmRegistration(){
+        submitButton.click();
+
+        return this;
+    }
+
+    public RegistrationPage checkResultTable(String key, String value){
+            table.checkTable(key, value);
+
+            return this;
+
     }
 }

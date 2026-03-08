@@ -28,17 +28,9 @@ public class TextBoxtestsWithPO extends TestBase {
                     .setHobbies("Reading")
                     .setStateCity("Uttar Pradesh")
                     .setCity("Lucknow")
-                    .upload("img/001.png");
+                    .upload("img/001.png")
+                    .confirmRegistration()
+                    .checkResultTable("Mobile","9062043613");
 
-
-
-
-
-           
-            $("#submit").click();
-
-            $("#example-modal-sizes-title-lg").shouldHave(text("Thanks for submitting the form"));
-            //$(".table-responsive").shouldHave(text("89998886655"), text("test@mail.ru"));
-            //Selenide.refresh();
         }
 }
