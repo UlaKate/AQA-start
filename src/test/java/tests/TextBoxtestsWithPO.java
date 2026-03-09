@@ -22,7 +22,7 @@ public class TextBoxtestsWithPO extends TestBase {
                     .setEmail("Peredali@mail.ru")
                     .setNumber("9062043613")
                     .setCurrentAddress("Передали адрес улица Новая дом 4 квартира 44")
-                    .choiceGender()
+                    .choiceGender("Other")
                     .setDateOfBirth("00", "00","00")
                     .setSubjects("Math")
                     .setHobbies("Reading")
@@ -40,6 +40,21 @@ public class TextBoxtestsWithPO extends TestBase {
                     .checkResultTable("Picture", "001.png")
                     .checkResultTable("Address", "Передали адрес улица Новая дом 4 квартира 44")
                     .checkResultTable("State and City", "Uttar Pradesh Lucknow");
+
+        }
+
+        @Test
+    void fillMinQuantityFiels(){
+            registrationPage
+                    .openPage()
+                    .setFirstName("Иван")
+                    .setLastName("Иванов")
+                    .setNumber("9998881122")
+                    .choiceGender("Male")
+                    .confirmRegistration()
+                    .checkResultTable("Student Name","Иван Иванов")
+                    .checkResultTable("Mobile", "9998881122")
+                    .checkResultTable("Gender", "Male");
 
         }
 }
