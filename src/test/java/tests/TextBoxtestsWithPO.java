@@ -57,4 +57,19 @@ public class TextBoxtestsWithPO extends TestBase {
                     .checkResultTable("Gender", "Male");
 
         }
+
+        @Test
+    void fillMinQuantityFielsAndChooseFemale(){
+            registrationPage
+                    .openPage()
+                    .setFirstName("Тест")
+                    .setLastName("Тестович")
+                    .setNumber("9999999999")
+                    .choiceGender("Female")
+                    .confirmRegistration()
+                    .checkResultTable("Student Name","Тест Тестович")
+                    .checkResultTable("Mobile", "9999999999")
+                    .checkResultTable("Gender", "Female");
+        }
+
 }
