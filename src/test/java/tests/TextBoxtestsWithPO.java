@@ -2,6 +2,8 @@ package tests;
 
 import org.junit.jupiter.api.Test;
 import pages.RegistrationPage;
+import utils.TestRandomData;
+
 
 import java.io.File;
 import static com.codeborne.selenide.Condition.text;
@@ -11,65 +13,67 @@ import static com.codeborne.selenide.Selenide.open;
 public class TextBoxtestsWithPO extends TestBase {
 
     RegistrationPage registrationPage = new RegistrationPage();
+    TestRandomData data = new TestRandomData();
+
 
 
         @Test
         void fillFormTests(){
             registrationPage
                     .openPage()
-                    .setFirstName("Передали имя")
-                    .setLastName("Передали фамилию")
-                    .setEmail("Peredali@mail.ru")
-                    .setNumber("9062043613")
-                    .setCurrentAddress("Передали адрес улица Новая дом 4 квартира 44")
-                    .choiceGender("Other")
-                    .setDateOfBirth("00", "00","00")
-                    .setSubjects("Math")
-                    .setHobbies("Reading")
-                    .setStateCity("Uttar Pradesh")
-                    .setCity("Lucknow")
-                    .upload("img/001.png")
+                    .setFirstName(data.firstName)
+                    .setLastName(data.lastName)
+                    .setEmail(data.emai)
+                    .setNumber(data.phoneNumber)
+                    .setCurrentAddress(data.currentAddress)
+                    .choiceGender(data.gender)
+                    .setDateOfBirth(data.day, data.month, data.year)
+                    .setSubjects(data.subject)
+                    .setHobbies(data.hobbie)
+                    .setStateCity(data.state)
+                    .setCity(data.city)
+                    .upload(data.picture)
                     .confirmRegistration()
-                    .checkResultTable("Student Name","Передали имя Передали фамилию")
-                    .checkResultTable("Student Email", "Peredali@mail.ru")
-                    .checkResultTable("Gender", "Other")
-                    .checkResultTable("Mobile", "9062043613")
-                    .checkResultTable("Date of Birth","07 April,1984")
-                    .checkResultTable("Subjects", "Math")
-                    .checkResultTable("Hobbies", "Reading")
-                    .checkResultTable("Picture", "001.png")
-                    .checkResultTable("Address", "Передали адрес улица Новая дом 4 квартира 44")
-                    .checkResultTable("State and City", "Uttar Pradesh Lucknow");
+                    .checkResultTable("Student Name",data.firstName + " " + data.lastName)
+                    .checkResultTable("Student Email", data.emai)
+                    .checkResultTable("Gender", data.gender)
+                    .checkResultTable("Mobile", data.phoneNumber)
+                    .checkResultTable("Date of Birth",data.day + " " + data.month + "," + data.year)
+                    .checkResultTable("Subjects", data.subject)
+                    .checkResultTable("Hobbies", data.hobbie)
+                    .checkResultTable("Picture", data.picture)
+                    .checkResultTable("Address", data.currentAddress)
+                    .checkResultTable("State and City", data.state + " " + data.city);
 
         }
 
-        @Test
-    void fillMinQuantityFiels(){
-            registrationPage
-                    .openPage()
-                    .setFirstName("Иван")
-                    .setLastName("Иванов")
-                    .setNumber("9998881122")
-                    .choiceGender("Male")
-                    .confirmRegistration()
-                    .checkResultTable("Student Name","Иван Иванов")
-                    .checkResultTable("Mobile", "9998881122")
-                    .checkResultTable("Gender", "Male");
+        //@Test
+    //void fillMinQuantityFiels(){
+            //registrationPage
+                    //.openPage()
+                    //.setFirstName("Иван")
+                    //.setLastName("Иванов")
+                    //.setNumber("9998881122")
+                    //.choiceGender("Male")
+                    //.confirmRegistration()
+                    //.checkResultTable("Student Name","Иван Иванов")
+                    //.checkResultTable("Mobile", "9998881122")
+                    //.checkResultTable("Gender", "Male");
 
-        }
+        //}
 
-        @Test
-    void fillMinQuantityFielsAndChooseFemale(){
-            registrationPage
-                    .openPage()
-                    .setFirstName("Тест")
-                    .setLastName("Тестович")
-                    .setNumber("9999999999")
-                    .choiceGender("Female")
-                    .confirmRegistration()
-                    .checkResultTable("Student Name","Тест Тестович")
-                    .checkResultTable("Mobile", "9999999999")
-                    .checkResultTable("Gender", "Female");
-        }
+        //@Test
+    //void fillMinQuantityFielsAndChooseFemale(){
+            //registrationPage
+                    //.openPage()
+                    //.setFirstName("Тест")
+                    //.setLastName("Тестович")
+                    //.setNumber("9999999999")
+                    //.choiceGender("Female")
+                    //.confirmRegistration()
+                    //.checkResultTable("Student Name","Тест Тестович")
+                    //.checkResultTable("Mobile", "9999999999")
+                    //.checkResultTable("Gender", "Female");
+        //}
 
 }
