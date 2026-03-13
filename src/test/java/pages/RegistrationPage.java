@@ -121,6 +121,11 @@ public class RegistrationPage {
             table.checkTable(key, value);
 
             return this;
+    }
 
+    public RegistrationPage checkWindowRegistration() {
+        table.checkModalWindow();
+
+        return this;
     }
 }

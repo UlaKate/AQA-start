@@ -17,7 +17,7 @@ public class TextBoxtestsWithPO extends TestBase {
 
 
 
-        @Test
+       @Test
         void fillFormTests(){
             registrationPage
                     .openPage()
@@ -47,33 +47,27 @@ public class TextBoxtestsWithPO extends TestBase {
 
         }
 
-        //@Test
-    //void fillMinQuantityFiels(){
-            //registrationPage
-                    //.openPage()
-                    //.setFirstName("Иван")
-                    //.setLastName("Иванов")
-                    //.setNumber("9998881122")
-                    //.choiceGender("Male")
-                    //.confirmRegistration()
-                    //.checkResultTable("Student Name","Иван Иванов")
-                    //.checkResultTable("Mobile", "9998881122")
-                    //.checkResultTable("Gender", "Male");
+        @Test
+    void fillRequiredFields(){
+            registrationPage
+                    .openPage()
+                    .setFirstName(data.firstName)
+                    .setLastName(data.lastName)
+                    .setNumber(data.phoneNumber)
+                    .choiceGender(data.gender)
+                    .confirmRegistration()
+                    .checkResultTable("Student Name",data.firstName + " " + data.lastName)
+                    .checkResultTable("Mobile", data.phoneNumber)
+                    .checkResultTable("Gender", data.gender);
 
-        //}
+        }
 
-        //@Test
-    //void fillMinQuantityFielsAndChooseFemale(){
-            //registrationPage
-                    //.openPage()
-                    //.setFirstName("Тест")
-                    //.setLastName("Тестович")
-                    //.setNumber("9999999999")
-                    //.choiceGender("Female")
-                    //.confirmRegistration()
-                    //.checkResultTable("Student Name","Тест Тестович")
-                    //.checkResultTable("Mobile", "9999999999")
-                    //.checkResultTable("Gender", "Female");
-        //}
+        @Test
+    void missFillingFields(){
+            registrationPage
+                    .openPage()
+                    .confirmRegistration()
+                    .checkWindowRegistration();
+        }
 
 }
