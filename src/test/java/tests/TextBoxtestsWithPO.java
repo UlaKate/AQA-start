@@ -1,5 +1,6 @@
 package tests;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import pages.RegistrationPage;
 import utils.TestRandomData;
@@ -9,6 +10,8 @@ import java.io.File;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
+
+@DisplayName("Класс Тестов на регистрацию нового пользователя")
 
 public class TextBoxtestsWithPO extends TestBase {
 
@@ -48,6 +51,7 @@ public class TextBoxtestsWithPO extends TestBase {
         }
 
         @Test
+        @DisplayName("Заполнив все обязаттельные поля должно пявиться модальное окно с заполнеными данными")
     void fillRequiredFields(){
             registrationPage
                     .openPage()
