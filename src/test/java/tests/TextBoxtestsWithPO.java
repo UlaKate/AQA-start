@@ -70,4 +70,21 @@ public class TextBoxtestsWithPO extends TestBase {
                     .checkWindowRegistration();
         }
 
+        @Test
+    void fillNotRequiredFields(){
+           registrationPage
+                   .openPage()
+                   .setEmail(data.emai)
+                   .setDateOfBirth(data.day, data.month, data.year)
+                   .setSubjects(data.subject)
+                   .setHobbies(data.hobbie)
+                   .upload(data.picture)
+                   .setCurrentAddress(data.currentAddress)
+                   .setStateCity(data.state)
+                   .setCity(data.city)
+                   .confirmRegistration()
+                   .checkWindowRegistration();
+        }
+
+
 }
