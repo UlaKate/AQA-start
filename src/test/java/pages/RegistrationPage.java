@@ -18,7 +18,7 @@ public class RegistrationPage {
             userEmailInput = $("#userEmail"),
             userNumberInput = $("#userNumber"),
             currentAddressInput = $("#currentAddress"),
-            gender = $("input[type=radio][value=Other]"),
+            gender = $("#genterWrapper"),
             calendarInput = $("#dateOfBirthInput"),
             subjectsInput = $("#subjectsInput"),
             hobbiesCheckbox = $("#hobbiesWrapper"),
@@ -68,8 +68,8 @@ public class RegistrationPage {
         return this;
     }
 
-    public RegistrationPage choiceGender(){
-        gender.click();
+    public RegistrationPage choiceGender(String value){
+        gender.$(byText(value)).click();
 
         return this;
     }
@@ -121,6 +121,11 @@ public class RegistrationPage {
             table.checkTable(key, value);
 
             return this;
+    }
 
+    public RegistrationPage checkWindowRegistration() {
+        table.checkModalWindow();
+
+        return this;
     }
 }
