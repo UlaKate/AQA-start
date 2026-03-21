@@ -8,6 +8,6 @@ public class BaseBirds {
     static void BeforeAll(){
         Configuration.browserSize = "1400*450";
         //Configuration.baseUrl = "https://bb1birds.ru/";
-        //Configuration.holdBrowserOpen = true;
+        Configuration.holdBrowserOpen = true;
     }
 }

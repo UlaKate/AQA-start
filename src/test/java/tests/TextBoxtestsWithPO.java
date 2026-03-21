@@ -53,7 +53,7 @@ public class TextBoxtestsWithPO extends TestBase {
 
         @Tag("Web")
         @Test
-        @DisplayName("Заполнив все обязаттельные поля должно пявиться модальное окно с заполнеными данными")
+        @DisplayName("Заполнив все обязаттельные поля должно появиться модальное окно с заполнеными данными")
     void fillRequiredFields(){
             registrationPage
                     .openPage()

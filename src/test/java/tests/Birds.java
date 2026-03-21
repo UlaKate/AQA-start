@@ -2,6 +2,9 @@ package tests;
 
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.*;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
+import org.junit.jupiter.params.provider.ValueSource;
 import pages.BirdsLoginPage;
 
 import static com.codeborne.selenide.Condition.*;
@@ -26,33 +29,43 @@ public class Birds extends BaseBirds{
         Configuration.holdBrowserOpen=false;
     }
 
+
     @Tags({
             @Tag("Web"),
             @Tag("Smoke")
     })
-    @DisplayName("При вводе не корректных данных появляется предупреждение")
-    @Test
-    void user() {
+    @DisplayName("При вводе не корректных данных появляется предупреждение22222")
+    @ParameterizedTest(name = "При вводе не корректной почты {0} появляется предупреждение")
+    @ValueSource(strings = {"яяяяя@яяяя.яя", "1111111@1111.11", "qqqqqq@qqq.qq"
+    })
+    void user(String login) {
        birdsLoginPage
                .openPage()
                .chooseLogin()
-               .setLogin("Проверка@проверка.ру")
+               .setLogin(login)
                .setPassword("123456789!")
                .confirmLoginPassword()
-               .checkBlockErrors("Неверный логин или пароль");
+               .checkBlockErrors("Неверный логин или пароль.");
 
     }
 
+
+    @CsvSource(value = {
+            "1234561111111111111111 | Неверный логин или пароль.",
+            "УУУУУУУУУУУУ | Неверный логин или пароль."
+    }, delimiter = '|')
+    @ParameterizedTest(name = "правильный пароль {0} появляется предупреждение {1}")
+    @DisplayName("При вводе пустой почты и правильного пароля появляется предупреждение")
     @Tag("Web")
-    @Disabled("ID44")
-    @Test
-    void fieldLoginEmpty(){
-        open("https://bb1birds.ru/");
-        $(".i-user").click();
-        $("[name=USER_PASSWORD]").setValue("123456789");
-        $("input[type=submit][name=Login]").click();
-        $(withText("Неверный логин или пароль.")).shouldBe(visible);
-        Configuration.holdBrowserOpen=false;
+    void fieldLoginEmpty(String correctPassword, String errors){
+        birdsLoginPage
+                .openPage()
+                .chooseLogin()
+                .setLogin("")
+                .setPassword(correctPassword)
+                .confirmLoginPassword()
+                .checkBlockErrors(errors);
+
 
     }
 

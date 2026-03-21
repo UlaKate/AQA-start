@@ -3,14 +3,14 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta http-equiv="x-ua-compatible" content="IE=edge"/>
-<title>Test results - РљР»Р°СЃСЃ С‚РµСЃС‚РѕРІ РЅР° Р°РІС‚РѕСЂРёР·Р°С†РёСЋ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ</title>
+<title>Test results - Класс тестов на авторизацию пользователя</title>
 <link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
 <link href="../css/style.css" rel="stylesheet" type="text/css"/>
 <script src="../js/report.js" type="text/javascript"></script>
 </head>
 <body>
 <div id="content">
-<h1>РљР»Р°СЃСЃ С‚РµСЃС‚РѕРІ РЅР° Р°РІС‚РѕСЂРёР·Р°С†РёСЋ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ</h1>
+<h1>Класс тестов на авторизацию пользователя</h1>
 <div class="breadcrumbs">
 <a href="../index.html">all</a> &gt; 
 <a href="../packages/tests.html">tests</a> &gt; Birds</div>
@@ -23,25 +23,25 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">4</div>
+<div class="counter">7</div>
 <p>tests</p>
 </div>
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">2</div>
+<div class="counter">0</div>
 <p>failures</p>
 </div>
 </td>
 <td>
 <div class="infoBox" id="ignored">
-<div class="counter">2</div>
+<div class="counter">1</div>
 <p>ignored</p>
 </div>
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">30.245s</div>
+<div class="counter">17.759s</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,8 +50,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox failures" id="successRate">
-<div class="percent">0%</div>
+<div class="infoBox skipped" id="successRate">
+<div class="percent">100%</div>
 <p>successful</p>
 </div>
 </td>
@@ -61,281 +61,12 @@
 <div class="tab-container">
 <ul class="tabLinks">
 <li>
-<a href="#">Failed tests</a>
-</li>
-<li>
 <a href="#">Tests</a>
 </li>
 <li>
 <a href="#">Standard error</a>
 </li>
 </ul>
-<div class="tab">
-<h2>Failed tests</h2>
-<div class="test">
-<a name="fillFormTests()"></a>
-<h3 class="failures">РџСЂРѕРІРµСЂСЏРµРј С‡С‚Рѕ РµСЃС‚СЊ РїСЂРµРґСѓРїСЂРµР¶РґРµРЅРёРµ Рѕ РєСѓРєР°С…</h3>
-<span class="code">
-<pre>Element not found {with text: РњС‹ РёСЃРїРѕР»СЊР·СѓРµРј С„Р°Р№Р»С‹ cookie. }
-Expected: visible
-Screenshot: file:/C:/AQA/AQA-start/build/reports/tests/1774097092951.0.png
-Page source: file:/C:/AQA/AQA-start/build/reports/tests/1774097092951.0.html
-Timeout: 4 s.
-Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[contains(normalize-space(translate(string(.), '
-	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:89)
-	at app//com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:142)
-	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:141)
-	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:125)
-	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:102)
-	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
-	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
-	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:162)
-	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
-	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app/jdk.proxy3/jdk.proxy3.$Proxy19.shouldBe(Unknown Source)
-	at app//tests.Birds.fillFormTests(Birds.java:24)
-	at java.base@17.0.12/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base@17.0.12/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base@17.0.12/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base@17.0.12/java.lang.reflect.Method.invoke(Method.java:568)
-	at app//org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
-	at app//org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
-	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
-	at app//org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
-	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
-	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
-	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
-	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
-	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
-	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
-	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
-	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
-	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
-	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
-	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
-	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
-	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
-	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
-	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
-	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at java.base@17.0.12/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at java.base@17.0.12/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
-	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
-	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
-	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
-	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
-	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
-	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
-	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
-	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
-	at app//org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
-	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:124)
-	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:99)
-	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:94)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
-	at java.base@17.0.12/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base@17.0.12/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base@17.0.12/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base@17.0.12/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
-	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
-	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:121)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
-	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
-	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[contains(normalize-space(translate(string(.), '	
- ', '    ')), &quot;РњС‹ РёСЃРїРѕР»СЊР·СѓРµРј С„Р°Р№Р»С‹ cookie. &quot;)]/parent::*&quot;}
-  (Session info: chrome=146.0.7680.80)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [704919912c2755043c819eaaa38c9bfb, findElement {value=.//*/text()[contains(normalize-space(translate(string(.), '	
- ', '    ')), &quot;РњС‹ РёСЃРїРѕР»СЊР·СѓРµРј С„Р°Р№Р»С‹ cookie. &quot;)]/parent::*, using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\New\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59714}, goog:processID: 18708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59714/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 704919912c2755043c819eaaa38c9bfb
-	at java.base@17.0.12/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base@17.0.12/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base@17.0.12/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base@17.0.12/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base@17.0.12/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at app//org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at app//org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at app//org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at app//org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at app//org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at app//org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at app//com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:70)
-	at app//com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:44)
-	at app//com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:33)
-	at app//com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:122)
-	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:114)
-	... 92 more
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="user()"></a>
-<h3 class="failures">РџСЂРё РІРІРѕРґРµ РЅРµ РєРѕСЂСЂРµРєС‚РЅС‹С… РґР°РЅРЅС‹С… РїРѕСЏРІР»СЏРµС‚СЃСЏ РїСЂРµРґСѓРїСЂРµР¶РґРµРЅРёРµ</h3>
-<span class="code">
-<pre>Element should have text &quot;РќРµРІРµСЂРЅС‹Р№ Р»РѕРіРёРЅ РёР»Рё РїР°СЂРѕР»СЊ&quot; {#login-area}
-Element: '&lt;div class=&quot;top-login&quot; id=&quot;login-area&quot;&gt;Зарегистрированный пользователь
-Если вы уже зарегистрированы, войдите в систему
-Неверный логин или пароль.
-E-mail:
-Пароль:
-Забыли пароль?
-Запомнить меня&lt;/div&gt;'
-Actual value: text=&quot;Зарегистрированный пользователь
-Если вы уже зарегистрированы, войдите в систему
-Неверный логин или пароль.
-E-mail:
-Пароль:
-Забыли пароль?
-Запомнить меня&quot;
-Screenshot: file:/C:/AQA/AQA-start/build/reports/tests/1774097099553.1.png
-Page source: file:/C:/AQA/AQA-start/build/reports/tests/1774097099553.1.html
-Timeout: 4 s.
-	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:147)
-	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:125)
-	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:102)
-	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
-	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
-	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:162)
-	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
-	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app/jdk.proxy3/jdk.proxy3.$Proxy19.shouldHave(Unknown Source)
-	at app//pages.components.BirdsLoginAreaComponent.checkErrors(BirdsLoginAreaComponent.java:10)
-	at app//pages.BirdsLoginPage.checkBlockErrors(BirdsLoginPage.java:50)
-	at app//tests.Birds.user(Birds.java:42)
-	at java.base@17.0.12/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base@17.0.12/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base@17.0.12/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base@17.0.12/java.lang.reflect.Method.invoke(Method.java:568)
-	at app//org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
-	at app//org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
-	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
-	at app//org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
-	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
-	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
-	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
-	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
-	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
-	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
-	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
-	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
-	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
-	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
-	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
-	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
-	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
-	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
-	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
-	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at java.base@17.0.12/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at java.base@17.0.12/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
-	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
-	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
-	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
-	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
-	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
-	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
-	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
-	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
-	at app//org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
-	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:124)
-	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:99)
-	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:94)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
-	at java.base@17.0.12/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base@17.0.12/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base@17.0.12/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base@17.0.12/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
-	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
-	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:121)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
-	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
-	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-</pre>
-</span>
-</div>
-</div>
 <div class="tab">
 <h2>Tests</h2>
 <table>
@@ -348,10 +79,16 @@ Timeout: 4 s.
 </tr>
 </thead>
 <tr>
-<td class="skipped">fieldLoginEmpty()</td>
-<td class="skipped">fieldLoginEmpty()</td>
-<td class="skipped">-</td>
-<td class="skipped">ignored</td>
+<td class="success">правильный пароль 1234561111111111111111 появляется предупреждение Неверный логин или пароль.</td>
+<td class="success">fieldLoginEmpty(String, String)[1]</td>
+<td class="success">1.491s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">правильный пароль УУУУУУУУУУУУ появляется предупреждение Неверный логин или пароль.</td>
+<td class="success">fieldLoginEmpty(String, String)[2]</td>
+<td class="success">1.837s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
 <td class="skipped">fieldPasswordEmpty()</td>
@@ -360,16 +97,28 @@ Timeout: 4 s.
 <td class="skipped">ignored</td>
 </tr>
 <tr>
-<td class="failures">РџСЂРѕРІРµСЂСЏРµРј С‡С‚Рѕ РµСЃС‚СЊ РїСЂРµРґСѓРїСЂРµР¶РґРµРЅРёРµ Рѕ РєСѓРєР°С…</td>
-<td class="failures">fillFormTests()</td>
-<td class="failures">23.811s</td>
-<td class="failures">failed</td>
+<td class="success">Проверяем что есть предупреждение о куках</td>
+<td class="success">fillFormTests()</td>
+<td class="success">7.393s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">РџСЂРё РІРІРѕРґРµ РЅРµ РєРѕСЂСЂРµРєС‚РЅС‹С… РґР°РЅРЅС‹С… РїРѕСЏРІР»СЏРµС‚СЃСЏ РїСЂРµРґСѓРїСЂРµР¶РґРµРЅРёРµ</td>
-<td class="failures">user()</td>
-<td class="failures">6.433s</td>
-<td class="failures">failed</td>
+<td class="success">При вводе не корректной почты яяяяя@яяяя.яя появляется предупреждение</td>
+<td class="success">user(String)[1]</td>
+<td class="success">1.708s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">При вводе не корректной почты 1111111@1111.11 появляется предупреждение</td>
+<td class="success">user(String)[2]</td>
+<td class="success">2.598s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">При вводе не корректной почты qqqqqq@qqq.qq появляется предупреждение</td>
+<td class="success">user(String)[3]</td>
+<td class="success">2.731s</td>
+<td class="success">passed</td>
 </tr>
 </table>
 </div>
@@ -377,17 +126,18 @@ Timeout: 4 s.
 <h2>Standard error</h2>
 <span class="code">
 <pre>[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
-[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\AQA\AQA-start\build\downloads\1774097069741_13820_1
-мар. 21, 2026 3:44:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\AQA\AQA-start\build\downloads\1774120281657_14948_1
+мар. 21, 2026 10:11:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 146
-мар. 21, 2026 3:44:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+мар. 21, 2026 10:11:24 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=146.0.7680.80 Platform=windows
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.2.0
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.18.1 build revision: b1d3319b48
-[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -&gt; ChromeDriver: chrome on windows (704919912c2755043c819eaaa38c9bfb), downloadsFolder: C:\AQA\AQA-start\build\downloads\1774097069741_13820_1
-[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (704919912c2755043c819eaaa38c9bfb), proxy=null, downloadsFolder=C:\AQA\AQA-start\build\downloads\1774097069741_13820_1] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -&gt; ChromeDriver: chrome on windows (fbddb29dd6ae6b2f5babd1bef6cf749e), downloadsFolder: C:\AQA\AQA-start\build\downloads\1774120281657_14948_1
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (fbddb29dd6ae6b2f5babd1bef6cf749e), proxy=null, downloadsFolder=C:\AQA\AQA-start\build\downloads\1774120281657_14948_1] in 1 [size=1]
 [Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Add shutdown hook in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - Browser will stay open due to holdBrowserOpen=true: 1 -&gt; ChromeDriver: chrome on windows (fbddb29dd6ae6b2f5babd1bef6cf749e)
 </pre>
 </span>
 </div>
@@ -399,7 +149,7 @@ WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="https://www.gradle.org">Gradle 8.13</a> at 21 мар. 2026 г., 15:45:13</p>
+<a href="https://www.gradle.org">Gradle 8.13</a> at 21 мар. 2026 г., 22:11:40</p>
 </div>
 </div>
 </body>
