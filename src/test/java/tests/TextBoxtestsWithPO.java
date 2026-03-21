@@ -1,7 +1,6 @@
 package tests;
 
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 import pages.RegistrationPage;
 import utils.TestRandomData;
 
@@ -18,8 +17,10 @@ public class TextBoxtestsWithPO extends TestBase {
     RegistrationPage registrationPage = new RegistrationPage();
     TestRandomData data = new TestRandomData();
 
-
-
+       @Tags({
+               @Tag("Web"),
+               @Tag("Smoke")
+       })
        @Test
         void fillFormTests(){
             registrationPage
@@ -50,6 +51,7 @@ public class TextBoxtestsWithPO extends TestBase {
 
         }
 
+        @Tag("Web")
         @Test
         @DisplayName("Заполнив все обязаттельные поля должно пявиться модальное окно с заполнеными данными")
     void fillRequiredFields(){
@@ -66,6 +68,7 @@ public class TextBoxtestsWithPO extends TestBase {
 
         }
 
+        @Tag("Web")
         @Test
     void missFillingFields(){
             registrationPage
@@ -74,6 +77,8 @@ public class TextBoxtestsWithPO extends TestBase {
                     .checkWindowRegistration();
         }
 
+        @Tag("Web")
+        @Disabled("ID 4444")
         @Test
     void fillNotRequiredFields(){
            registrationPage

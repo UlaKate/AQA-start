@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.SimpleJunitTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-03-21T12:45:06.317Z" hostname="KOMPUTER" time="0.014">
+  <properties/>
+  <testcase name="thirdTest()" classname="tests.SimpleJunitTest" time="0.009"/>
+  <testcase name="firstTest()" classname="tests.SimpleJunitTest" time="0.001"/>
+  <testcase name="secondTest()" classname="tests.SimpleJunitTest" time="0.002"/>
+  <system-out><![CDATA[BeforeAll()
+
+beforeEach()
+thirdTest()
+afterEach()
+
+beforeEach()
+firstTest()
+afterEach()
+
+beforeEach()
+secondTest()
+afterEach()
+
+AfterAll()
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
