@@ -1,28 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Класс тестов на авторизацию пользователя" tests="7" skipped="1" failures="0" errors="0" timestamp="2026-03-21T19:11:21.615Z" hostname="KOMPUTER" time="17.895">
+<testsuite name="КЛАСС ТЕСТОВ НА АВТОРИЗАЦИЮ ПОЛЬЗОВАТЕЛЯ" tests="15" skipped="0" failures="0" errors="0" timestamp="2026-03-21T20:01:55.948Z" hostname="KOMPUTER" time="32.436">
   <properties/>
-  <testcase name="fieldPasswordEmpty()" classname="tests.Birds" time="0.001">
-    <skipped/>
-  </testcase>
-  <testcase name="Проверяем что есть предупреждение о куках" classname="tests.Birds" time="7.393"/>
-  <testcase name="При вводе не корректной почты яяяяя@яяяя.яя появляется предупреждение" classname="tests.Birds" time="1.708"/>
-  <testcase name="При вводе не корректной почты 1111111@1111.11 появляется предупреждение" classname="tests.Birds" time="2.598"/>
-  <testcase name="При вводе не корректной почты qqqqqq@qqq.qq появляется предупреждение" classname="tests.Birds" time="2.731"/>
-  <testcase name="правильный пароль 1234561111111111111111 появляется предупреждение Неверный логин или пароль." classname="tests.Birds" time="1.491"/>
-  <testcase name="правильный пароль УУУУУУУУУУУУ появляется предупреждение Неверный логин или пароль." classname="tests.Birds" time="1.837"/>
+  <testcase name="Вводиться неверный пароль 1 и появляется предупреждение Неверный логин или пароль." classname="tests.Birds" time="7.516"/>
+  <testcase name="Вводиться неверный пароль dfgdfgfdg и появляется предупреждение Неверный логин или пароль." classname="tests.Birds" time="1.883"/>
+  <testcase name="Вводиться неверный пароль 2 и появляется предупреждение Неверный логин или пароль." classname="tests.Birds" time="2.282"/>
+  <testcase name="Вводиться неверный пароль !!!!!!! и появляется предупреждение Неверный логин или пароль." classname="tests.Birds" time="1.934"/>
+  <testcase name="Вводиться неверный пароль ******** и появляется предупреждение Неверный логин или пароль." classname="tests.Birds" time="1.928"/>
+  <testcase name="Вводиться неверный пароль %*&amp;YJHJfg и появляется предупреждение Неверный логин или пароль." classname="tests.Birds" time="2.917"/>
+  <testcase name="Вводиться неверный пароль GGGGGGGGG и появляется предупреждение Неверный логин или пароль." classname="tests.Birds" time="1.764"/>
+  <testcase name="Вводиться неверный пароль 00000-0000 и появляется предупреждение Неверный логин или пароль." classname="tests.Birds" time="1.789"/>
+  <testcase name="Вводиться неверный пароль 30 и появляется предупреждение Неверный логин или пароль." classname="tests.Birds" time="1.756"/>
+  <testcase name="Проверяем что есть предупреждение о куках" classname="tests.Birds" time="0.456"/>
+  <testcase name="При вводе не корректной почты яяяяя@яяяя.яя появляется предупреждение" classname="tests.Birds" time="1.664"/>
+  <testcase name="При вводе не корректной почты 1111111@1111.11 появляется предупреждение" classname="tests.Birds" time="1.434"/>
+  <testcase name="При вводе не корректной почты qqqqqq@qqq.qq появляется предупреждение" classname="tests.Birds" time="1.692"/>
+  <testcase name="правильный пароль 1234561111111111111111 появляется предупреждение Неверный логин или пароль." classname="tests.Birds" time="1.666"/>
+  <testcase name="правильный пароль УУУУУУУУУУУУ появляется предупреждение Неверный логин или пароль." classname="tests.Birds" time="1.671"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
-[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\AQA\AQA-start\build\downloads\1774120281657_14948_1
-мар. 21, 2026 10:11:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\AQA\AQA-start\build\downloads\1774123316000_18788_1
+мар. 21, 2026 11:01:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 146
-мар. 21, 2026 10:11:24 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+мар. 21, 2026 11:01:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=146.0.7680.80 Platform=windows
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.2.0
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.18.1 build revision: b1d3319b48
-[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (fbddb29dd6ae6b2f5babd1bef6cf749e), downloadsFolder: C:\AQA\AQA-start\build\downloads\1774120281657_14948_1
-[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (fbddb29dd6ae6b2f5babd1bef6cf749e), proxy=null, downloadsFolder=C:\AQA\AQA-start\build\downloads\1774120281657_14948_1] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (885d67175d52e2c4c576c4089e649997), downloadsFolder: C:\AQA\AQA-start\build\downloads\1774123316000_18788_1
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (885d67175d52e2c4c576c4089e649997), proxy=null, downloadsFolder=C:\AQA\AQA-start\build\downloads\1774123316000_18788_1] in 1 [size=1]
 [Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Add shutdown hook in 1 [size=1]
-[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - Browser will stay open due to holdBrowserOpen=true: 1 -> ChromeDriver: chrome on windows (fbddb29dd6ae6b2f5babd1bef6cf749e)
+[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - Browser will stay open due to holdBrowserOpen=true: 1 -> ChromeDriver: chrome on windows (885d67175d52e2c4c576c4089e649997)
 ]]></system-err>
 </testsuite>

@@ -3,14 +3,14 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta http-equiv="x-ua-compatible" content="IE=edge"/>
-<title>Test results - Класс тестов на авторизацию пользователя</title>
+<title>Test results - КЛАСС ТЕСТОВ НА АВТОРИЗАЦИЮ ПОЛЬЗОВАТЕЛЯ</title>
 <link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
 <link href="../css/style.css" rel="stylesheet" type="text/css"/>
 <script src="../js/report.js" type="text/javascript"></script>
 </head>
 <body>
 <div id="content">
-<h1>Класс тестов на авторизацию пользователя</h1>
+<h1>КЛАСС ТЕСТОВ НА АВТОРИЗАЦИЮ ПОЛЬЗОВАТЕЛЯ</h1>
 <div class="breadcrumbs">
 <a href="../index.html">all</a> &gt; 
 <a href="../packages/tests.html">tests</a> &gt; Birds</div>
@@ -23,7 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">7</div>
+<div class="counter">15</div>
 <p>tests</p>
 </div>
 </td>
@@ -35,13 +35,13 @@
 </td>
 <td>
 <div class="infoBox" id="ignored">
-<div class="counter">1</div>
+<div class="counter">0</div>
 <p>ignored</p>
 </div>
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">17.759s</div>
+<div class="counter">32.352s</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,7 +50,7 @@
 </div>
 </td>
 <td>
-<div class="infoBox skipped" id="successRate">
+<div class="infoBox success" id="successRate">
 <div class="percent">100%</div>
 <p>successful</p>
 </div>
@@ -81,43 +81,91 @@
 <tr>
 <td class="success">правильный пароль 1234561111111111111111 появляется предупреждение Неверный логин или пароль.</td>
 <td class="success">fieldLoginEmpty(String, String)[1]</td>
-<td class="success">1.491s</td>
+<td class="success">1.666s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">правильный пароль УУУУУУУУУУУУ появляется предупреждение Неверный логин или пароль.</td>
 <td class="success">fieldLoginEmpty(String, String)[2]</td>
-<td class="success">1.837s</td>
+<td class="success">1.671s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="skipped">fieldPasswordEmpty()</td>
-<td class="skipped">fieldPasswordEmpty()</td>
-<td class="skipped">-</td>
-<td class="skipped">ignored</td>
+<td class="success">Вводиться неверный пароль 1 и появляется предупреждение Неверный логин или пароль.</td>
+<td class="success">fieldNotCorrectPassword(String, String)[1]</td>
+<td class="success">7.516s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Вводиться неверный пароль dfgdfgfdg и появляется предупреждение Неверный логин или пароль.</td>
+<td class="success">fieldNotCorrectPassword(String, String)[2]</td>
+<td class="success">1.883s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Вводиться неверный пароль 2 и появляется предупреждение Неверный логин или пароль.</td>
+<td class="success">fieldNotCorrectPassword(String, String)[3]</td>
+<td class="success">2.282s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Вводиться неверный пароль !!!!!!! и появляется предупреждение Неверный логин или пароль.</td>
+<td class="success">fieldNotCorrectPassword(String, String)[4]</td>
+<td class="success">1.934s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Вводиться неверный пароль ******** и появляется предупреждение Неверный логин или пароль.</td>
+<td class="success">fieldNotCorrectPassword(String, String)[5]</td>
+<td class="success">1.928s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Вводиться неверный пароль %*&amp;YJHJfg и появляется предупреждение Неверный логин или пароль.</td>
+<td class="success">fieldNotCorrectPassword(String, String)[6]</td>
+<td class="success">2.917s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Вводиться неверный пароль GGGGGGGGG и появляется предупреждение Неверный логин или пароль.</td>
+<td class="success">fieldNotCorrectPassword(String, String)[7]</td>
+<td class="success">1.764s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Вводиться неверный пароль 00000-0000 и появляется предупреждение Неверный логин или пароль.</td>
+<td class="success">fieldNotCorrectPassword(String, String)[8]</td>
+<td class="success">1.789s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Вводиться неверный пароль 30 и появляется предупреждение Неверный логин или пароль.</td>
+<td class="success">fieldNotCorrectPassword(String, String)[9]</td>
+<td class="success">1.756s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">Проверяем что есть предупреждение о куках</td>
 <td class="success">fillFormTests()</td>
-<td class="success">7.393s</td>
+<td class="success">0.456s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">При вводе не корректной почты яяяяя@яяяя.яя появляется предупреждение</td>
 <td class="success">user(String)[1]</td>
-<td class="success">1.708s</td>
+<td class="success">1.664s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">При вводе не корректной почты 1111111@1111.11 появляется предупреждение</td>
 <td class="success">user(String)[2]</td>
-<td class="success">2.598s</td>
+<td class="success">1.434s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">При вводе не корректной почты qqqqqq@qqq.qq появляется предупреждение</td>
 <td class="success">user(String)[3]</td>
-<td class="success">2.731s</td>
+<td class="success">1.692s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -126,18 +174,18 @@
 <h2>Standard error</h2>
 <span class="code">
 <pre>[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
-[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\AQA\AQA-start\build\downloads\1774120281657_14948_1
-мар. 21, 2026 10:11:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\AQA\AQA-start\build\downloads\1774123316000_18788_1
+мар. 21, 2026 11:01:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 146
-мар. 21, 2026 10:11:24 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+мар. 21, 2026 11:01:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=146.0.7680.80 Platform=windows
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.2.0
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.18.1 build revision: b1d3319b48
-[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -&gt; ChromeDriver: chrome on windows (fbddb29dd6ae6b2f5babd1bef6cf749e), downloadsFolder: C:\AQA\AQA-start\build\downloads\1774120281657_14948_1
-[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (fbddb29dd6ae6b2f5babd1bef6cf749e), proxy=null, downloadsFolder=C:\AQA\AQA-start\build\downloads\1774120281657_14948_1] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -&gt; ChromeDriver: chrome on windows (885d67175d52e2c4c576c4089e649997), downloadsFolder: C:\AQA\AQA-start\build\downloads\1774123316000_18788_1
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (885d67175d52e2c4c576c4089e649997), proxy=null, downloadsFolder=C:\AQA\AQA-start\build\downloads\1774123316000_18788_1] in 1 [size=1]
 [Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Add shutdown hook in 1 [size=1]
-[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - Browser will stay open due to holdBrowserOpen=true: 1 -&gt; ChromeDriver: chrome on windows (fbddb29dd6ae6b2f5babd1bef6cf749e)
+[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - Browser will stay open due to holdBrowserOpen=true: 1 -&gt; ChromeDriver: chrome on windows (885d67175d52e2c4c576c4089e649997)
 </pre>
 </span>
 </div>
@@ -149,7 +197,7 @@ WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="https://www.gradle.org">Gradle 8.13</a> at 21 мар. 2026 г., 22:11:40</p>
+<a href="https://www.gradle.org">Gradle 8.13</a> at 21 мар. 2026 г., 23:02:29</p>
 </div>
 </div>
 </body>

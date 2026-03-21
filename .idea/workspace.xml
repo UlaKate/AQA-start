@@ -11,28 +11,17 @@
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.Birds.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.Birds.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.SimpleJunitTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.TextBoxtests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.TextBoxtestsWithPO.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/tests.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-tests.Birds.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-tests.Birds.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-tests.SimpleJunitTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-tests.TextBoxtests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-tests.TextBoxtestsWithPO.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/Birds.class.uniqueId1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/TextBoxtestsWithPO.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/Birds.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/Birds.class.uniqueId0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseBirds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseBirds.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/Birds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Birds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TextBoxtestsWithPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TextBoxtestsWithPO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +75,7 @@
   "keyToString": {
     "Gradle.Birds.executor": "Run",
     "Gradle.Birds.fieldLoginEmpty.executor": "Run",
+    "Gradle.Birds.fieldNotCorrectPassword.executor": "Run",
     "Gradle.Birds.fieldPasswordEmpty.executor": "Run",
     "Gradle.Birds.fillFormTests.executor": "Run",
     "Gradle.Birds.user.executor": "Run",
@@ -151,7 +141,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="Birds.fillFormTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Birds.fieldNotCorrectPassword" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -164,7 +154,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.Birds.fillFormTests&quot;" />
+            <option value="&quot;tests.Birds.fieldNotCorrectPassword&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -199,7 +189,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TextBoxtestsWithPO" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TextBoxtestsWithPO.fillFormTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -212,7 +202,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.TextBoxtestsWithPO&quot;" />
+            <option value="&quot;tests.TextBoxtestsWithPO.fillFormTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -226,10 +216,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.Birds" />
+        <item itemvalue="Gradle.Birds.fieldNotCorrectPassword" />
+        <item itemvalue="Gradle.TextBoxtestsWithPO.fillFormTests" />
         <item itemvalue="Gradle.Birds.fieldLoginEmpty" />
         <item itemvalue="Gradle.Birds.user" />
-        <item itemvalue="Gradle.TextBoxtestsWithPO" />
-        <item itemvalue="Gradle.Birds.fillFormTests" />
       </list>
     </recent_temporary>
   </component>

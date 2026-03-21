@@ -3,6 +3,7 @@ package tests;
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvFileSource;
 import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.params.provider.ValueSource;
 import pages.BirdsLoginPage;
@@ -13,7 +14,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
 
-@DisplayName("Класс тестов на авторизацию пользователя")
+@DisplayName("КЛАСС ТЕСТОВ НА АВТОРИЗАЦИЮ ПОЛЬЗОВАТЕЛЯ")
 
 public class Birds extends BaseBirds{
 
@@ -69,15 +70,19 @@ public class Birds extends BaseBirds{
 
     }
 
+
+    @CsvFileSource(resources = "/tabl/data_password.csv")
+    @ParameterizedTest(name = "Вводиться неверный пароль {0} и появляется предупреждение {1}")
+    @DisplayName("Вводиться неверный пароль и появляется предупреждение")
     @Tag("Web")
-    @Disabled("ID45")
-    @Test
-    void fieldPasswordEmpty(){
-        open("https://bb1birds.ru/");
-        $(".i-user").click();
-        $("[name=USER_LOGIN]").setValue("логин-почта");
-        $("input[type=submit][name=Login]").click();
-        $(withText("Неверный логин или пароль.")).shouldBe(visible);
-        Configuration.holdBrowserOpen=false;
+    void fieldNotCorrectPassword(String NotCorrectPassword, String errors){
+        birdsLoginPage
+                .openPage()
+                .chooseLogin()
+                .setLogin("qaz123@mail.ru")
+                .setPassword(NotCorrectPassword)
+                .confirmLoginPassword()
+                .checkBlockErrors(errors);
+
     }
 }
