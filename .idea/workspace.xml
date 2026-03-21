@@ -17,7 +17,6 @@
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/tests.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-tests.Birds.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-tests.Birds.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/Birds.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/Birds.class.uniqueId0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
@@ -57,6 +56,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -78,6 +78,8 @@
     "Gradle.Birds.fieldNotCorrectPassword.executor": "Run",
     "Gradle.Birds.fieldPasswordEmpty.executor": "Run",
     "Gradle.Birds.fillFormTests.executor": "Run",
+    "Gradle.Birds.priceEurAndRub.executor": "Run",
+    "Gradle.Birds.siteShouldHaveRusAndEndButton.executor": "Run",
     "Gradle.Birds.user.executor": "Run",
     "Gradle.TextBoxtests.executor": "Run",
     "Gradle.TextBoxtests.fillFormTests.executor": "Run",
@@ -92,7 +94,7 @@
     "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.Birds">
+  <component name="RunManager" selected="Gradle.Birds.siteShouldHaveRusAndEndButton">
     <configuration name="Birds" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -107,30 +109,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;tests.Birds&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="Birds.fieldLoginEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.Birds.fieldLoginEmpty&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -165,7 +143,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="Birds.user" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Birds.priceEurAndRub" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -178,7 +156,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.Birds.user&quot;" />
+            <option value="&quot;tests.Birds.priceEurAndRub&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Birds.siteShouldHaveRusAndEndButton" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.Birds.siteShouldHaveRusAndEndButton&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -215,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Birds.siteShouldHaveRusAndEndButton" />
+        <item itemvalue="Gradle.Birds.priceEurAndRub" />
         <item itemvalue="Gradle.Birds" />
         <item itemvalue="Gradle.Birds.fieldNotCorrectPassword" />
         <item itemvalue="Gradle.TextBoxtestsWithPO.fillFormTests" />
-        <item itemvalue="Gradle.Birds.fieldLoginEmpty" />
-        <item itemvalue="Gradle.Birds.user" />
       </list>
     </recent_temporary>
   </component>

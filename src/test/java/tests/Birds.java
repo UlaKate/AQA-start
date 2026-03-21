@@ -1,17 +1,20 @@
 package tests;
 
 import com.codeborne.selenide.Configuration;
+import data.Language;
+import org.checkerframework.checker.units.qual.A;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.CsvFileSource;
-import org.junit.jupiter.params.provider.CsvSource;
-import org.junit.jupiter.params.provider.ValueSource;
+import org.junit.jupiter.params.provider.*;
 import pages.BirdsLoginPage;
 
+import java.util.List;
+import java.util.stream.Stream;
+
+import static com.codeborne.selenide.CollectionCondition.texts;
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.*;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.*;
 
 
 @DisplayName("КЛАСС ТЕСТОВ НА АВТОРИЗАЦИЮ ПОЛЬЗОВАТЕЛЯ")
@@ -66,8 +69,6 @@ public class Birds extends BaseBirds{
                 .setPassword(correctPassword)
                 .confirmLoginPassword()
                 .checkBlockErrors(errors);
-
-
     }
 
 
@@ -84,5 +85,35 @@ public class Birds extends BaseBirds{
                 .confirmLoginPassword()
                 .checkBlockErrors(errors);
 
+    }
+
+    //@Disabled("Пока изучаю emun")
+    @EnumSource(Language.class)
+    @ParameterizedTest
+    void priceEurAndRub(Language lang){
+        open("https://selenide.org/");
+        $$("#languages a").find(text(lang.name())).click();
+        $("h3").shouldHave(text(lang.discription));
+    }
+
+
+    static Stream<Arguments> siteShouldHaveRusAndEndButton(){
+        return Stream.of(
+                Arguments.of(
+                        Language.EN,
+                        List.of("Quick start", "Docs", "FAQ", "Blog", "Javadoc", "Users", "Quotes")),
+                        Arguments.of(
+                        Language.RU,
+                        List.of("С чего начать?", "Док", "ЧАВО", "Блог", "Javadoc", "Пользователи", "Отзывы"))
+        );
+    }
+
+    @MethodSource
+    @ParameterizedTest
+    void siteShouldHaveRusAndEndButton(Language lang, List<String> expectedLangButton){
+        open("https://selenide.org/");
+        $$("#languages a").find(text(lang.name())).click();
+        $$(".main-menu-pages a").filter(visible)
+                .shouldHave(texts(expectedLangButton));
     }
 }
