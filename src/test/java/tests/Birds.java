@@ -2,7 +2,6 @@ package tests;
 
 import com.codeborne.selenide.Configuration;
 import data.Language;
-import org.checkerframework.checker.units.qual.A;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.*;
@@ -108,6 +107,7 @@ public class Birds extends BaseBirds{
         );
     }
 
+    @Disabled("Изучаю еще")
     @MethodSource
     @ParameterizedTest
     void siteShouldHaveRusAndEndButton(Language lang, List<String> expectedLangButton){

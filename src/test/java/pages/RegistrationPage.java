@@ -1,15 +1,17 @@
 package pages;
 
 import com.codeborne.selenide.SelenideElement;
+import io.qameta.allure.Allure;
+import org.openqa.selenium.OutputType;
 import pages.components.CalendarComponent;
 import pages.components.CheckFormComponent;
 
+import java.io.ByteArrayInputStream;
 import java.io.File;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.*;
 
 public class RegistrationPage {
      private   SelenideElement
@@ -126,6 +128,12 @@ public class RegistrationPage {
     public RegistrationPage checkWindowRegistration() {
         table.checkModalWindow();
 
+        return this;
+    }
+
+    public RegistrationPage scrinshots(String name){
+        byte[] screenshotAsBytes = screenshot(OutputType.BYTES);
+        Allure.addAttachment(name, new ByteArrayInputStream(screenshotAsBytes));
         return this;
     }
 }

@@ -6,6 +6,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 
 public class CheckFormComponent {
+
     public void checkTable(String key, String value){
         $(".table-responsive").$(byText(key)).parent()
                 .shouldHave(text(value));
