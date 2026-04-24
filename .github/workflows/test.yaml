@@ -30,7 +30,7 @@ jobs:
 
      # генерируем отчет
 
-      - uses: allure-framework/allure-github-action
+      - uses: simple-elf/allure-report-action
         if: always()
         with:
           allure_results: build/allure-results
