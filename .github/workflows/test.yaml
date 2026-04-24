@@ -18,9 +18,7 @@ jobs:
           java-version: '17'
       - uses: Xotabu4/selenoid-github-action@v2
       # запускаем тесты
-      - run:
-          chmod +x gradlew
-          ./gradlew clean test -Dselenide.remote=http://localhost:4444/wd/hub
+      - run: chmod +x gradlew && ./gradlew clean test -Dselenide.remote=http://localhost:4444/wd/hub
      # скачиваем историю тестов
       - uses: actions/checkout@v4
         if: always()
@@ -43,4 +41,3 @@ jobs:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
-
