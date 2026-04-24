@@ -95,7 +95,7 @@ public class TextBoxtestsWithPO extends TestBase {
 
         @Tag("Web")
         @Test
-        @DisplayName("Заполнив все обязаттельные поля должно появиться модальное окно с заполнеными данными")
+        @DisplayName("Заполнив все обязательные поля должно появиться модальное окно с заполнеными данными")
         void fillRequiredFields(){
             SelenideLogger.addListener("allure", new AllureSelenide());
             registrationPage
