@@ -10,7 +10,7 @@ jobs:
     #  что делаем
     steps:
       # выкачиваем репозиторий
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       # настраиваем джава
       - uses: actions/setup-java@v3
         with:
@@ -20,7 +20,7 @@ jobs:
       # запускаем тесты
       - run: ./gradlew clean test -Dselenide.remote=http://localhost:4444/wd/hub
      # скачиваем историю тестов
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         if: always()
         continue-on-error: true
         with:
