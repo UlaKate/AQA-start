@@ -7,37 +7,47 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    #  что делаем
+    #  что делаем шаги
     steps:
-      # выкачиваем репозиторий
+      # Клонирует репозиторий на виртуальную машину
       - uses: actions/checkout@v4
-      # настраиваем джава
+      # Устанавливает Java 17 (Zulu distribution) - нужно для Gradle
       - uses: actions/setup-java@v3
         with:
           distribution:  'zulu'
           java-version: '17'
+      # Запускает Selenoid (сервис для браузеров в Docker) Позволяет запускать UI-тесты изолированно
       - uses: Xotabu4/selenoid-github-action@v2
-      # запускаем тесты
+      # делает gradlew исполняемым запускает тесты через Gradle говорит тестам использовать удалённый браузер (Selenoid)
       - run: chmod +x gradlew && ./gradlew clean test -Dselenide.remote=http://localhost:4444/wd/hub
      # скачиваем историю тестов
       - uses: actions/checkout@v4
+        # выполняется даже при падении предыдущих шагов
         if: always()
+        # не прерывает весь job при ошибке
         continue-on-error: true
         with:
+          # переключается на ветку gh-pages
          ref: gh-pages
+          скачивает ветку в папку gh-pages (там хранится старая история отчётов)
          path: gh-pages
-     # генерируем отчет
+     # Генерирует Allure-отчёт
       - uses: simple-elf/allure-report-action@master
         if: always()
         with:
+          # объединяет с историей из gh-pages
           gh_pages: gh-pages
+          # берёт результаты тестов из build/allure-results
           allure_results: build/allure-results
           allure_report: allure-report
+          # создаёт готовый HTML-отчёт в allure-history
           allure_history: allure-history
-     # публикуем отчет
+     # Публикует отчёт в ветку gh-pages
       - uses: peaceiris/actions-gh-pages@v2
         if: always()
         env:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # куда публиковать
           PUBLISH_BRANCH: gh-pages
+          # что публиковать
           PUBLISH_DIR: allure-history
