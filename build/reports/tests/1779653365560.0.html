@@ -1,0 +1,566 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Overview :: JUnit User Guide</title>
+    <link rel="canonical" href="https://docs.junit.org/6.1.0/overview.html">
+    <link rel="prev" href="index.html">
+    <link rel="next" href="writing-tests/intro.html">
+    <meta name="generator" content="Antora 3.2.0-alpha.12">
+    <link rel="stylesheet" href="../_/css/site.css">
+<link rel="icon" type="image/png" href="../_/img/junit-diamond.png">
+<link rel="icon" type="image/svg+xml" href="../_/img/junit-diamond-adaptive.svg" sizes="any">
+
+<link rel="stylesheet" href="../_/css/vendor/highlightjs/github.min.css">
+<link rel="stylesheet" href="../_/css/vendor/tabs.css">
+
+<link rel="preload" as="style" href="https://assets.junit.org/fonts/index.css">
+<link rel="preload" as="font" href="https://assets.junit.org/fonts/blinker-latin-600-normal.woff2" type="font/woff2" crossorigin="">
+<link rel="preload" as="font" href="https://assets.junit.org/fonts/inter-latin-wght-normal.woff2" type="font/woff2" crossorigin="">
+<link rel="preload" as="font" href="https://assets.junit.org/fonts/inter-latin-wght-italic.woff2" type="font/woff2" crossorigin="">
+<link rel="preload" as="font" href="https://assets.junit.org/fonts/jetbrains-mono-latin-wght-normal.woff2" type="font/woff2" crossorigin="">
+
+<link rel="preload" as="style" href="../_/css/site-extra.css">
+
+<link rel="stylesheet" href="https://assets.junit.org/fonts/index.css">
+<link rel="stylesheet" href="../_/css/site-extra.css">
+
+<meta name="theme-color" content="#25a162">
+  <link rel="stylesheet" href="../_/css/search.css"></head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item title" href="https://docs.junit.org">
+          <img class="logo" src="../_/img/junit-diamond-white.png" alt="✔️">
+          JUnit User Guide<span class="version">6.1.0</span>
+      </a>
+      <div class="navbar-item search hide-for-print">
+        <div id="search-field" class="field">
+          <input id="search-input" type="text" placeholder="Search current version" autofocus="" title="">
+          <label style="display: none">
+            <!-- restrict search to current version -->
+            <input type="checkbox" data-facet-filter="version:6.1.0" checked="">
+          </label>
+        <div class="search-result-dropdown-menu"></div></div>
+      </div>
+      <button class="navbar-burger" aria-controls="topbar-nav" aria-expanded="false" aria-label="Toggle main menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+          <a class="navbar-item" href="https://junit.org/">Home</a>
+          <a class="navbar-item" href="https://github.com/junit-team/junit-framework/">Repo</a>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="junit" data-version="6.1.0">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <button class="nav-menu-toggle" aria-label="Toggle expand/collapse all" style=""></button>
+    <h3 class="title"><a href="index.html">JUnit</a></h3>
+<ul class="nav-list">
+  <li class="nav-item is-active is-current-path" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item is-current-page is-active" data-depth="1">
+    <a class="nav-link" href="overview.html">Overview</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="writing-tests/intro.html">Writing Tests</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="writing-tests/annotations.html">Annotations</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="writing-tests/definitions.html">Definitions</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="writing-tests/test-classes-and-methods.html">Test Classes and Methods</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="writing-tests/display-names.html">Display Names</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="writing-tests/assertions.html">Assertions</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="writing-tests/assumptions.html">Assumptions</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="writing-tests/exception-handling.html">Exception Handling</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="writing-tests/disabling-tests.html">Disabling Tests</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="writing-tests/conditional-test-execution.html">Conditional Test Execution</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="writing-tests/tagging-and-filtering.html">Tagging and Filtering</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="writing-tests/test-execution-order.html">Test Execution Order</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="writing-tests/test-instance-lifecycle.html">Test Instance Lifecycle</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="writing-tests/nested-tests.html">Nested Tests</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="writing-tests/dependency-injection-for-constructors-and-methods.html">Dependency Injection for Constructors and Methods</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="writing-tests/test-interfaces-and-default-methods.html">Test Interfaces and Default Methods</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="writing-tests/repeated-tests.html">Repeated Tests</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="writing-tests/parameterized-classes-and-tests.html">Parameterized Classes and Tests</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="writing-tests/class-templates.html">Class Templates</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="writing-tests/test-templates.html">Test Templates</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="writing-tests/dynamic-tests.html">Dynamic Tests</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="writing-tests/timeouts.html">Timeouts</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="writing-tests/parallel-execution.html">Parallel Execution</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="writing-tests/built-in-extensions.html">Built-in Extensions</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="migrating-from-junit4.html">Migrating from JUnit 4</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="running-tests/intro.html">Running Tests</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="running-tests/ide-support.html">IDE Support</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="running-tests/build-support.html">Build Support</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="running-tests/console-launcher.html">Console Launcher</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="running-tests/source-launcher.html">Source Launcher</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="running-tests/discovery-selectors.html">Discovery Selectors</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="running-tests/configuration-parameters.html">Configuration Parameters</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="running-tests/tags.html">Tags</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="running-tests/capturing-standard-output-error.html">Capturing Standard Output/Error</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="running-tests/using-listeners-and-interceptors.html">Using Listeners and Interceptors</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="running-tests/stack-trace-pruning.html">Stack Trace Pruning</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="running-tests/discovery-issues.html">Discovery Issues</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="extensions/overview.html">Extension Model</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="extensions/registering-extensions.html">Registering Extensions</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="extensions/conditional-test-execution.html">Conditional Test Execution</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="extensions/test-instance-pre-construct-callback.html">Test Instance Pre-construct Callback</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="extensions/test-instance-factories.html">Test Instance Factories</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="extensions/test-instance-post-processing.html">Test Instance Post-processing</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="extensions/test-instance-pre-destroy-callback.html">Test Instance Pre-destroy Callback</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="extensions/parameter-resolution.html">Parameter Resolution</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="extensions/test-result-processing.html">Test Result Processing</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="extensions/test-lifecycle-callbacks.html">Test Lifecycle Callbacks</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="extensions/exception-handling.html">Exception Handling</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="extensions/pre-interrupt-callback.html">Pre-Interrupt Callback</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="extensions/intercepting-invocations.html">Intercepting Invocations</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="extensions/providing-invocation-contexts-for-class-templates.html">Providing Invocation Contexts for Class Templates</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="extensions/providing-invocation-contexts-for-test-templates.html">Providing Invocation Contexts for Test Templates</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="extensions/keeping-state-in-extensions.html">Keeping State in Extensions</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="extensions/supported-utilities-in-extensions.html">Supported Utilities in Extensions</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="extensions/relative-execution-order-of-user-code-and-extensions.html">Relative Execution Order of User Code and Extensions</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text" style="cursor: pointer;">Advanced Topics</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="advanced-topics/junit-platform-reporting.html">JUnit Platform Reporting</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="advanced-topics/junit-platform-suite-engine.html">JUnit Platform Suite Engine</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="advanced-topics/testkit.html">JUnit Platform Test Kit</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="advanced-topics/launcher-api.html">JUnit Platform Launcher API</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="advanced-topics/engines.html">Test Engines</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="api-evolution.html">API Evolution</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="release-notes.html">Release Notes</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="appendix.html">Appendix</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="api/index.html">Javadoc</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">JUnit</span>
+    <span class="version">6.1.0</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <div class="title"><a href="index.html">JUnit</a></div>
+      <ul class="versions">
+        <li class="version">
+          <a href="../6.2.0/index.html">6.2.0-SNAPSHOT</a>
+        </li>
+        <li class="version is-current is-latest">
+          <a href="index.html">6.1.0</a>
+        </li>
+        <li class="version">
+          <a href="../6.1.0-RC1/index.html">6.1.0-RC1</a>
+        </li>
+        <li class="version">
+          <a href="../6.1.0-M1/index.html">6.1.0-M1</a>
+        </li>
+        <li class="version">
+          <a href="../6.0.3/index.html">6.0.3</a>
+        </li>
+        <li class="version">
+          <a href="../6.0.2/index.html">6.0.2</a>
+        </li>
+        <li class="version">
+          <a href="../6.0.1/index.html">6.0.1</a>
+        </li>
+        <li class="version">
+          <a href="../6.0.0/index.html">6.0.0</a>
+        </li>
+        <li class="version">
+          <a href="../5.14.4/index.html">5.14.4</a>
+        </li>
+        <li class="version">
+          <a href="../5.14.3/index.html">5.14.3</a>
+        </li>
+        <li class="version">
+          <a href="../5.14.2/index.html">5.14.2</a>
+        </li>
+        <li class="version">
+          <a href="../5.14.1/index.html">5.14.1</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="overview.html" class="home-link is-current"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="index.html">JUnit</a></li>
+    <li><a href="overview.html">Overview</a></li>
+  </ul>
+</nav>
+        <div class="pdf-link">
+            <a href="_exports/junit-user-guide-6.1.0.pdf#overview">PDF</a>
+        </div>
+        <div class="html-link">
+            <a href="_exports/junit-user-guide-6.1.0.html#overview">Single page</a>
+        </div>
+<div class="page-versions">
+  <button class="version-menu-toggle" title="Show other versions of page">6.1.0</button>
+  <div class="version-menu">
+    <a class="version" href="../6.2.0/overview.html">6.2.0-SNAPSHOT</a>
+    <a class="version is-current" href="overview.html">6.1.0</a>
+    <a class="version" href="../6.1.0-RC1/overview.html">6.1.0-RC1</a>
+    <a class="version" href="../6.1.0-M1/overview.html">6.1.0-M1</a>
+    <a class="version" href="../6.0.3/overview.html">6.0.3</a>
+    <a class="version" href="../6.0.2/overview.html">6.0.2</a>
+    <a class="version" href="../6.0.1/overview.html">6.0.1</a>
+    <a class="version" href="../6.0.0/overview.html">6.0.0</a>
+    <a class="version" href="../5.14.4/overview.html">5.14.4</a>
+    <a class="version" href="../5.14.3/overview.html">5.14.3</a>
+    <a class="version" href="../5.14.2/overview.html">5.14.2</a>
+    <a class="version" href="../5.14.1/overview.html">5.14.1</a>
+  </div>
+</div>
+<div class="edit-this-page"><a href="https://github.com/junit-team/junit-framework/edit/antora/6.1.0/documentation/modules/ROOT/pages/overview.adoc">Edit this Page</a></div>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"><h3>Contents</h3><ul><li data-level="1"><a href="#what-is-junit">What is JUnit?</a></li><li data-level="1"><a href="#java-versions">Supported Java Versions</a></li><li data-level="1"><a href="#getting-help">Getting Help</a></li><li data-level="1"><a href="#getting-started">Getting Started</a></li><li data-level="2"><a href="#getting-started-junit-artifacts">Downloading JUnit Artifacts</a></li><li data-level="2"><a href="#getting-started-features">JUnit Features</a></li><li data-level="2"><a href="#getting-started-example-projects">Example Projects</a></li></ul></div>
+</aside>
+<article class="doc">
+<h1 class="page">Overview</h1>
+<aside class="toc embedded"><div class="toc-menu"><h3>Contents</h3><ul><li data-level="1"><a href="#what-is-junit">What is JUnit?</a></li><li data-level="1"><a href="#java-versions">Supported Java Versions</a></li><li data-level="1"><a href="#getting-help">Getting Help</a></li><li data-level="1"><a href="#getting-started">Getting Started</a></li><li data-level="2"><a href="#getting-started-junit-artifacts">Downloading JUnit Artifacts</a></li><li data-level="2"><a href="#getting-started-features">JUnit Features</a></li><li data-level="2"><a href="#getting-started-example-projects">Example Projects</a></li></ul></div></aside><div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>The goal of this document is to provide comprehensive reference documentation for
+programmers writing tests, extension authors, and engine authors as well as build tool
+and IDE vendors.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="what-is-junit"><a class="anchor" href="#what-is-junit"></a>What is JUnit?</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>JUnit is composed of several different modules from three different sub-projects.</p>
+</div>
+<div class="paragraph text-center">
+<p><strong>JUnit 6.1.0 = <em>JUnit Platform</em> + <em>JUnit Jupiter</em> + <em>JUnit Vintage</em></strong></p>
+</div>
+<div class="paragraph">
+<p>The <strong>JUnit Platform</strong> serves as a foundation for
+<a href="advanced-topics/launcher-api.html" class="xref page">launching testing frameworks</a> on the JVM. It also
+defines the <code><a href="api/org.junit.platform.engine/org/junit/platform/engine/TestEngine.html" class="xref attachment">TestEngine</a></code> API for developing a testing framework that runs on the
+platform. Furthermore, the platform provides a
+<a href="running-tests/console-launcher.html" class="xref page">Console Launcher</a> to launch the platform from the
+command line and the <a href="advanced-topics/junit-platform-suite-engine.html" class="xref page">JUnit Platform Suite Engine</a> for running a
+custom test suite using one or more test engines on the platform. First-class support for
+the JUnit Platform also exists in popular IDEs (see
+<a href="running-tests/ide-support.html#intellij-idea" class="xref page">IntelliJ IDEA</a>,
+<a href="running-tests/ide-support.html#eclipse" class="xref page">Eclipse</a>,
+<a href="running-tests/ide-support.html#netbeans" class="xref page">NetBeans</a>, and
+<a href="running-tests/ide-support.html#vscode" class="xref page">Visual Studio Code</a>) and build tools (see
+<a href="running-tests/build-support.html#gradle" class="xref page">Gradle</a>,
+<a href="running-tests/build-support.html#maven" class="xref page">Maven</a>,
+<a href="running-tests/build-support.html#ant" class="xref page">Ant</a>,
+<a href="running-tests/build-support.html#bazel" class="xref page">Bazel</a>, and
+<a href="running-tests/build-support.html#sbt" class="xref page">sbt</a>).</p>
+</div>
+<div class="paragraph">
+<p><strong>JUnit Jupiter</strong> is the combination of the <a href="writing-tests/intro.html" class="xref page">programming model</a> and
+<a href="extensions/overview.html" class="xref page">extension model</a> for writing JUnit tests and extensions. The Jupiter
+sub-project provides a <code>TestEngine</code> for running Jupiter based tests on the platform.</p>
+</div>
+<div class="paragraph">
+<p><strong>JUnit Vintage</strong> provides a <code>TestEngine</code> for running JUnit 3 and JUnit 4 based tests on
+the platform. It requires JUnit 4.12 or later to be present on the class path or module
+path. Note, however, that the JUnit Vintage engine is deprecated and should only be used
+temporarily while migrating tests to JUnit Jupiter or another testing framework with
+native JUnit Platform support.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="java-versions"><a class="anchor" href="#java-versions"></a>Supported Java Versions</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>JUnit requires Java 17 (or higher) at runtime. However, you can still test code that
+has been compiled with previous versions of the JDK.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="getting-help"><a class="anchor" href="#getting-help"></a>Getting Help</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Ask JUnit-related questions on <a href="https://stackoverflow.com/questions/tagged/junit5">Stack Overflow</a> or use the <a href="https://github.com/junit-team/junit-framework/discussions/categories/q-a">Q&amp;A category on GitHub Discussions</a>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="getting-started"><a class="anchor" href="#getting-started"></a>Getting Started</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="getting-started-junit-artifacts"><a class="anchor" href="#getting-started-junit-artifacts"></a>Downloading JUnit Artifacts</h3>
+<div class="paragraph">
+<p>To find out what artifacts are available for download and inclusion in your project, refer
+to <a href="appendix.html#dependency-metadata" class="xref page">Dependency Metadata</a>. To set up dependency management for your build, refer to
+<a href="running-tests/build-support.html" class="xref page">Build Support</a> and the <a href="#getting-started-example-projects">Example Projects</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="getting-started-features"><a class="anchor" href="#getting-started-features"></a>JUnit Features</h3>
+<div class="paragraph">
+<p>To find out what features are available in JUnit 6.1.0 and how to use them, read the
+corresponding sections of this User Guide, organized by topic.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="writing-tests/intro.html" class="xref page">Writing Tests in JUnit Jupiter</a></p>
+</li>
+<li>
+<p><a href="migrating-from-junit4.html" class="xref page">Migrating from JUnit 4 to JUnit Jupiter</a></p>
+</li>
+<li>
+<p><a href="running-tests/intro.html" class="xref page">Running Tests</a></p>
+</li>
+<li>
+<p><a href="extensions/overview.html" class="xref page">Extension Model for JUnit Jupiter</a></p>
+</li>
+<li>
+<p>Advanced Topics</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="advanced-topics/launcher-api.html" class="xref page">JUnit Platform Launcher API</a></p>
+</li>
+<li>
+<p><a href="advanced-topics/testkit.html" class="xref page">JUnit Platform Test Kit</a></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="getting-started-example-projects"><a class="anchor" href="#getting-started-example-projects"></a>Example Projects</h3>
+<div class="paragraph">
+<p>To see complete, working examples of projects that you can copy and experiment with, the
+<a href="https://github.com/junit-team/junit-examples"><code>junit-examples</code></a> repository is a good place to start. The
+<code>junit-examples</code> repository hosts a collection of example projects based on JUnit Jupiter,
+JUnit Vintage, and other testing frameworks. You’ll find appropriate build scripts (e.g.,
+<code>build.gradle</code>, <code>pom.xml</code>, etc.) in the example projects. The links below highlight some
+of the combinations you can choose from.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>For Gradle and Java, check out the <code><a href="https://github.com/junit-team/junit-examples/tree/r6.1.0/junit-jupiter-starter-gradle">junit-jupiter-starter-gradle</a></code> project.</p>
+</li>
+<li>
+<p>For Gradle and Kotlin, check out the <code><a href="https://github.com/junit-team/junit-examples/tree/r6.1.0/junit-jupiter-starter-gradle-kotlin">junit-jupiter-starter-gradle-kotlin</a></code> project.</p>
+</li>
+<li>
+<p>For Gradle and Groovy, check out the <code><a href="https://github.com/junit-team/junit-examples/tree/r6.1.0/junit-jupiter-starter-gradle-groovy">junit-jupiter-starter-gradle-groovy</a></code> project.</p>
+</li>
+<li>
+<p>For Maven, check out the <code><a href="https://github.com/junit-team/junit-examples/tree/r6.1.0/junit-jupiter-starter-maven">junit-jupiter-starter-maven</a></code> project.</p>
+</li>
+<li>
+<p>For Ant, check out the <code><a href="https://github.com/junit-team/junit-examples/tree/r6.1.0/junit-jupiter-starter-ant">junit-jupiter-starter-ant</a></code> project.</p>
+</li>
+<li>
+<p>For Bazel, check out the <code><a href="https://github.com/junit-team/junit-examples/tree/r6.1.0/junit-jupiter-starter-bazel">junit-jupiter-starter-bazel</a></code> project.</p>
+</li>
+<li>
+<p>For sbt, check out the <code><a href="https://github.com/junit-team/junit-examples/tree/r6.1.0/junit-jupiter-starter-sbt">junit-jupiter-starter-sbt</a></code> project.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<nav class="pagination">
+  <span class="prev"><a href="index.html">JUnit</a></span>
+  <span class="next"><a href="writing-tests/intro.html">Writing Tests</a></span>
+</nav>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+    <p>
+        © Copyright 2015-2026 the original author or authors.
+        All rights reserved.
+        The content of this page is made available under the terms of the <a href="https://www.eclipse.org/legal/epl-v20.html">Eclipse Public License v2.0</a>.
+    </p>
+    <p>
+        This page was built using an adapted version of the Antora default UI.
+        The source code for this UI is licensed under the terms of the <a href="https://www.mozilla.org/en-US/MPL/2.0/">Mozilla Public License v2.0</a>.
+    </p>
+    <p>
+        Built and hosted on <a href="https://statichost.eu">statichost.eu</a>.
+    </p>
+</footer>
+<script id="site-script" src="../_/js/site.js" data-ui-root-path="../_"></script>
+<script async="" src="../_/js/vendor/highlight.js"></script>
+<script async="" src="../_/js/vendor/tabs.js" data-sync-storage-key="preferred-code-language"></script>
+<script src="../_/js/vendor/lunr.js"></script>
+<script src="../_/js/search-ui.js" id="search-ui-script" data-site-root-path=".." data-snippet-length="100" data-stylesheet="../_/css/search.css"></script>
+<script async="" src="../search-index.js"></script>
+  
+
+</body></html>

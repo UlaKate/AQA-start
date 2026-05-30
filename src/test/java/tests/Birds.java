@@ -5,6 +5,8 @@ import data.Language;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.*;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import pages.BirdsLoginPage;
 
 import java.util.List;
@@ -14,11 +16,14 @@ import static com.codeborne.selenide.CollectionCondition.texts;
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.*;
+import static io.qameta.allure.Allure.step;
 
 
 @DisplayName("КЛАСС ТЕСТОВ НА АВТОРИЗАЦИЮ ПОЛЬЗОВАТЕЛЯ")
 
 public class Birds extends BaseBirds{
+
+
 
     BirdsLoginPage birdsLoginPage = new BirdsLoginPage();
 
@@ -42,13 +47,16 @@ public class Birds extends BaseBirds{
     @ValueSource(strings = {"яяяяя@яяяя.яя", "1111111@1111.11", "qqqqqq@qqq.qq"
     })
     void user(String login) {
-       birdsLoginPage
-               .openPage()
-               .chooseLogin()
-               .setLogin(login)
-               .setPassword("123456789!")
-               .confirmLoginPassword()
-               .checkBlockErrors("Неверный логин или пароль.");
+       step("Проверяем ошибку", () -> {
+           birdsLoginPage
+                   .openPage()
+                   .chooseLogin()
+                   .setLogin(login)
+                   .setPassword("123456789!")
+                   .confirmLoginPassword()
+                   .checkBlockErrors("Неверный логин или пароль.")
+                   .scrinshots("Сделан скриншот формы с заполненными полями");
+       });
 
     }
 
@@ -76,13 +84,34 @@ public class Birds extends BaseBirds{
     @DisplayName("Вводиться неверный пароль и появляется предупреждение")
     @Tag("Web")
     void fieldNotCorrectPassword(String NotCorrectPassword, String errors){
-        birdsLoginPage
+        step ("Открываем сайт", () -> {
+            birdsLoginPage
                 .openPage()
+                .scrinshots("Сделан скриншот экрана");
+        });
+
+        step("Вводим логин и пароль", ()->{
+            birdsLoginPage
                 .chooseLogin()
                 .setLogin("qaz123@mail.ru")
                 .setPassword(NotCorrectPassword)
+                .scrinshots("Сделан скриншот логина и пароля");
+
+        });
+
+        step("Подтверждение пароля и логина", () ->{
+            birdsLoginPage
                 .confirmLoginPassword()
-                .checkBlockErrors(errors);
+                .scrinshots("Скриншот экрана");
+        });
+
+        step("Проверка ошибки", ()->{
+            birdsLoginPage
+                .checkBlockErrors(errors)
+                .scrinshots("Скриншот подтверждения ошибки");
+        });
+
+
 
     }
 

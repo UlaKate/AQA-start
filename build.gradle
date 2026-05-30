@@ -28,7 +28,11 @@ dependencies{
             "org.junit.jupiter:junit-jupiter:6.0.3",
             "org.slf4j:slf4j-simple:2.0.17",
             "com.github.javafaker:javafaker:1.0.2",
-            "io.qameta.allure:allure-selenide:2.34.0"
+            "io.qameta.allure:allure-selenide:2.34.0",
+            "com.codeborne:pdf-test:1.5.0",
+            "com.codeborne:xls-test:1.4.3",
+            "com.opencsv:opencsv:5.12.0",
+            "com.google.code.gson:gson:2.14.0"
     )
 }
 

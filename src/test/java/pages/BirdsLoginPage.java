@@ -1,10 +1,13 @@
 package pages;
 
 import com.codeborne.selenide.SelenideElement;
+import io.qameta.allure.Allure;
+import org.openqa.selenium.OutputType;
 import pages.components.BirdsLoginAreaComponent;
 
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
+import java.io.ByteArrayInputStream;
+
+import static com.codeborne.selenide.Selenide.*;
 
 public class BirdsLoginPage {
 
@@ -49,6 +52,12 @@ public class BirdsLoginPage {
     public BirdsLoginPage checkBlockErrors(String value){
         loginAreaComponent.checkErrors(value);
 
+        return this;
+    }
+
+    public BirdsLoginPage scrinshots(String name){
+        byte[] screenshotAsBytes = screenshot(OutputType.BYTES);
+        Allure.addAttachment(name, new ByteArrayInputStream(screenshotAsBytes));
         return this;
     }
 }

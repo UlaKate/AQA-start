@@ -125,7 +125,7 @@ public class TextBoxtestsWithPO extends TestBase {
         @Disabled("ID 4444")
         @Test
         void fillNotRequiredFields(){
-            SelenideLogger.addListener("allure", new AllureSelenide());
+           SelenideLogger.addListener("allure", new AllureSelenide());
            registrationPage
                    .openPage()
                    .setEmail(data.emai)
