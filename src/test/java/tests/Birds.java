@@ -83,7 +83,7 @@ public class Birds extends BaseBirds{
     @ParameterizedTest(name = "Вводиться неверный пароль {0} и появляется предупреждение {1}")
     @DisplayName("Вводиться неверный пароль и появляется предупреждение")
     @Tag("Web")
-    void fieldNotCorrectPassword(String NotCorrectPassword, String errors){
+    void fieldNotCorrectPassword(String notCorrectPassword, String errors){
         step ("Открываем сайт", () -> {
             birdsLoginPage
                 .openPage()
@@ -94,7 +94,7 @@ public class Birds extends BaseBirds{
             birdsLoginPage
                 .chooseLogin()
                 .setLogin("qaz123@mail.ru")
-                .setPassword(NotCorrectPassword)
+                .setPassword(notCorrectPassword)
                 .scrinshots("Сделан скриншот логина и пароля");
 
         });
@@ -110,8 +110,6 @@ public class Birds extends BaseBirds{
                 .checkBlockErrors(errors)
                 .scrinshots("Скриншот подтверждения ошибки");
         });
-
-
 
     }
 
