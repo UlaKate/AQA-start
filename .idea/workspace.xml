@@ -110,7 +110,7 @@
       <recent name="C:\AQA\AQA-start\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TextBoxtestsWithPO.fillRequiredFields">
+  <component name="RunManager" selected="Gradle.TextBoxtestsWithPO.missFillingFields">
     <configuration name="Birds.fillFormTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -233,8 +233,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TextBoxtestsWithPO.fillRequiredFields" />
         <item itemvalue="Gradle.TextBoxtestsWithPO.missFillingFields" />
+        <item itemvalue="Gradle.TextBoxtestsWithPO.fillRequiredFields" />
         <item itemvalue="Gradle.TextBoxtestsWithPO.fillFormTests" />
         <item itemvalue="Gradle.Birds.fillFormTests" />
         <item itemvalue="Gradle.Birds.user" />

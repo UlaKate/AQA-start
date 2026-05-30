@@ -114,7 +114,7 @@ public class RegistrationPage {
     }
 
     public RegistrationPage confirmRegistration(){
-        submitButton.scrollTo();
+        submitButton.scrollIntoView(true);
         submitButton.click();
 
         return this;
