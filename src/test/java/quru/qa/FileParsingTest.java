@@ -7,9 +7,7 @@ import com.google.gson.JsonObject;
 import com.opencsv.CSVReader;
 import model.TestJson;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.ClassOrderer;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.json.Json;
 
 import java.io.*;
 import java.util.List;
@@ -18,7 +16,6 @@ import java.util.zip.ZipInputStream;
 
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
-import static com.codeborne.selenide.impl.Cleanup.of;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class FileParsingTest {
@@ -59,7 +56,7 @@ public class FileParsingTest {
 
     @Test
     void zipFileParsingTest() throws Exception{
-        try(InputStream is = cl.getResourceAsStream("001.zip");
+        try(InputStream is = cl.getResourceAsStream("011.zip");
             ZipInputStream zis = new ZipInputStream(is)){
             ZipEntry entry;
 
