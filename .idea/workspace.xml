@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6bb35d52-a11d-4312-bdf3-1cb8c3a78ad4" name="Changes" comment="" />
+    <list default="true" id="6bb35d52-a11d-4312-bdf3-1cb8c3a78ad4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseBirds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseBirds.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +109,7 @@
       <recent name="C:\AQA\AQA-start\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Birds.fieldNotCorrectPassword">
+  <component name="RunManager" selected="Gradle.FileParsingTest.zipFileParsingTest">
     <configuration name="AQA-start [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -227,8 +230,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Birds.fieldNotCorrectPassword" />
         <item itemvalue="Gradle.FileParsingTest.zipFileParsingTest" />
+        <item itemvalue="Gradle.Birds.fieldNotCorrectPassword" />
         <item itemvalue="Gradle.TextBoxtestsWithPO" />
         <item itemvalue="Gradle.Birds" />
         <item itemvalue="Gradle.AQA-start [allureServe]" />

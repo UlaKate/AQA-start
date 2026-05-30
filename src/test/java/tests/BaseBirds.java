@@ -9,7 +9,7 @@ public class BaseBirds {
     @BeforeAll
     static void BeforeAll(){
         Configuration.browserSize = "1400*450";
-        Configuration.baseUrl = "https://bb1birds.ru/";
+        //Configuration.baseUrl = "https://bb1birds.ru/";
         Configuration.holdBrowserOpen = true;
         SelenideLogger.addListener("allure", new AllureSelenide());
     }
