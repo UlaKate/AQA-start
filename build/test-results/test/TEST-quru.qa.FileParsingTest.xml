@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="quru.qa.FileParsingTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-05-30T20:36:03.712Z" hostname="KOMPUTER" time="0.136">
+  <properties/>
+  <testcase name="zipFileParsingTest()" classname="quru.qa.FileParsingTest" time="0.136"/>
+  <system-out><![CDATA[V3iCYsnOeRQEPNKh57aoXnm7l9En9yHaWQGtJMlpcHBg7iZdVRpuKalSg9WD20EU.pdf
+jVtLdF1AgrtB9m73t78L9DEX-IEwW8igLarJHFCTa6aO22q411Vm4Xd1Lda7djn3.pdf
+Eey2snlH7ImpMmHyYRFA3KmCPPd2XOqCbhcEfIN4bEr7ha5IUyL6Rp1IJhz0iYXk.pdf
+ciSuZb0IEEcNRpYf-1WUBXehZVTGqZ7dC8ziD2cTIWmGfJNvipy9SfHtBkATDrI1.pdf
+0DO1rpzZNdr-_DbDlPiwDKfhRTa9D2NPzxfl9ovZypYrONNrVh2_WDh1-bZPc83w.pdf
+cTlSm6sr64jfYcUmbeD4V7OcBFVoHnUz8XKwb6BgyDRiV9iGPmX8BcZvYNeyrOuw.pdf
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

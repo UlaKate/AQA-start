@@ -5,58 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6bb35d52-a11d-4312-bdf3-1cb8c3a78ad4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/060ab1ae-a2ed-46de-848b-40d7d6e6dcd2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/13ce926f-16e0-47e0-950f-86e7b5c539b8-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/250370ca-ad7d-473b-a396-66e825a77556-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/2d3ac40f-7338-4299-b701-dd0786fd990e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/2fbf58d9-c48f-4ead-a061-9b893b92610d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/47e90d8b-6a5b-46d2-a5c0-2f9002a062b6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/4a78d794-6c09-424e-a888-d56cd333a2ac-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/5ea4745b-b329-415d-92c3-f8afe02fbe9c-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/69004f73-f7a0-4074-9628-a945debe0ec7-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/6b243829-fb75-4fcd-968f-4f69638a268e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/8619a5ef-865a-4433-8f58-7ce6c5a5ec06-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/89ca13f2-bfce-45a0-b1a4-fdca74fcb3ae-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/8e35e2bb-5a31-4843-8573-ea209cbefc38-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/94a7f9cb-20a8-47fe-9bfb-b2ddea22a77a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/959c53fe-b330-4a06-bf75-ebb92fe5f341-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/ac0838c2-fb17-402d-bed7-7d69e9fa9322-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/bc8e6bfe-cbce-45f8-8209-84d6b0333d29-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/cc307ce0-864b-427c-b9c5-4e8e7eb0fe38-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/e4d4e724-3667-4dc6-8c40-368b5a3344e1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/e802c987-00a3-4b5f-8555-8585177250b1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/f88e0a1c-2ea3-44ea-b248-3104ed869dd6-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/quru.qa.SelenideFilesTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.Birds.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/quru.qa.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/tabl/data_password.csv" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/tabl/data_password.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-quru.qa.SelenideFilesTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-tests.Birds.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/SelenideFilesTest.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BirdsLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BirdsLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/quru/qa/SelenideFilesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/quru/qa/SelenideFilesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseBirds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseBirds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Birds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Birds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TextBoxtestsWithPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TextBoxtestsWithPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/tabl/data_password.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/tabl/data_password.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +120,7 @@
       <recent name="C:\AQA\AQA-start\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AQA-start [allureServe]">
+  <component name="RunManager" selected="Gradle.FileParsingTest.zipFileParsingTest">
     <configuration name="AQA-start [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -206,7 +167,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="FileParsingTest.jsonFileParsingImproovedTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Birds.fieldNotCorrectPassword" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -219,7 +180,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;quru.qa.FileParsingTest.jsonFileParsingImproovedTest&quot;" />
+            <option value="&quot;tests.Birds.fieldNotCorrectPassword&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -230,7 +191,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="FileParsingTest.jsonFileParsingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FileParsingTest.zipFileParsingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -243,7 +204,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;quru.qa.FileParsingTest.jsonFileParsingTest&quot;" />
+            <option value="&quot;quru.qa.FileParsingTest.zipFileParsingTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -280,11 +241,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.AQA-start [allureServe]" />
-        <item itemvalue="Gradle.Birds" />
+        <item itemvalue="Gradle.FileParsingTest.zipFileParsingTest" />
+        <item itemvalue="Gradle.Birds.fieldNotCorrectPassword" />
         <item itemvalue="Gradle.TextBoxtestsWithPO" />
-        <item itemvalue="Gradle.FileParsingTest.jsonFileParsingTest" />
-        <item itemvalue="Gradle.FileParsingTest.jsonFileParsingImproovedTest" />
+        <item itemvalue="Gradle.Birds" />
+        <item itemvalue="Gradle.AQA-start [allureServe]" />
       </list>
     </recent_temporary>
   </component>
