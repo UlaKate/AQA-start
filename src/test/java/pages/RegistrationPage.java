@@ -114,6 +114,7 @@ public class RegistrationPage {
     }
 
     public RegistrationPage confirmRegistration(){
+        executeJavaScript("$('footer').remove()");
         submitButton.scrollIntoView(true);
         submitButton.click();
 
