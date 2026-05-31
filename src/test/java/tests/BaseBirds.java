@@ -12,5 +12,6 @@ public class BaseBirds {
         //Configuration.baseUrl = "https://bb1birds.ru/";
         Configuration.holdBrowserOpen = true;
         SelenideLogger.addListener("allure", new AllureSelenide());
+        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
     }
 }
