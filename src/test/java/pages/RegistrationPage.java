@@ -1,5 +1,6 @@
 package pages;
 
+import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Allure;
 import org.openqa.selenium.OutputType;
@@ -114,8 +115,11 @@ public class RegistrationPage {
     }
 
     public RegistrationPage confirmRegistration(){
-        executeJavaScript("document.querySelector('footer')?.remove();");
-        executeJavaScript("const banners = document.querySelectorAll('footer, [class*=fiverr], [id*=fiverr]'); banners.forEach(b => b.remove());");
+        executeJavaScript("""
+        document.querySelectorAll('footer, [class*="fiverr"], [id*="fiverr"]')
+            .forEach(el => el.remove());
+    """);
+        submitButton.shouldBe(Condition.clickable);
         submitButton.scrollIntoView(true);
         submitButton.click();
 
