@@ -36,7 +36,7 @@ public class Birds extends BaseBirds{
         //$(".cookie-alert__content__text").shouldBe(hidden);
         $(withText("Мы используем файлы cookie. ")).shouldBe(visible);
         //$(withText("Мы используем файлы cookie. ")).shouldBe(hidden);
-        Configuration.holdBrowserOpen=false;
+        //Configuration.holdBrowserOpen=false;
     }
 
 
