@@ -115,6 +115,7 @@ public class RegistrationPage {
 
     public RegistrationPage confirmRegistration(){
         executeJavaScript("document.querySelector('footer')?.remove();");
+        executeJavaScript("const banners = document.querySelectorAll('footer, [class*=fiverr], [id*=fiverr]'); banners.forEach(b => b.remove());");
         submitButton.scrollIntoView(true);
         submitButton.click();
 
