@@ -77,7 +77,8 @@ public class Birds extends BaseBirds{
                 .setLogin("")
                 .setPassword(correctPassword)
                 .confirmLoginPassword()
-                .checkBlockErrors(errors);
+                .checkBlockErrors(errors)
+                .scrinshots("скриншот,скриншот,скриншот,скриншот,скриншот");
     }
 
 
