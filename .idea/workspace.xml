@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6bb35d52-a11d-4312-bdf3-1cb8c3a78ad4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" afterDir="false" />
-    </list>
+    <list default="true" id="6bb35d52-a11d-4312-bdf3-1cb8c3a78ad4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,41 +65,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.AQA-start [allureServe].executor": "Run",
-    "Gradle.Birds.executor": "Run",
-    "Gradle.Birds.fieldLoginEmpty.executor": "Run",
-    "Gradle.Birds.fieldNotCorrectPassword.executor": "Run",
-    "Gradle.Birds.fieldPasswordEmpty.executor": "Run",
-    "Gradle.Birds.fillFormTests.executor": "Run",
-    "Gradle.Birds.priceEurAndRub.executor": "Run",
-    "Gradle.Birds.siteShouldHaveRusAndEndButton.executor": "Run",
-    "Gradle.Birds.user.executor": "Run",
-    "Gradle.FileParsingTest.csvFileParsingTest.executor": "Run",
-    "Gradle.FileParsingTest.executor": "Run",
-    "Gradle.FileParsingTest.jsonFileParsingImproovedTest.executor": "Run",
-    "Gradle.FileParsingTest.jsonFileParsingTest.executor": "Run",
-    "Gradle.FileParsingTest.pdfFileParsingTest.executor": "Run",
-    "Gradle.FileParsingTest.xslsFileParsingTest.executor": "Run",
-    "Gradle.FileParsingTest.zipFileParsingTest.executor": "Run",
-    "Gradle.SelenideFilesTest.executor": "Run",
-    "Gradle.SelenideFilesTest.uploadFileTest.executor": "Run",
-    "Gradle.TextBoxtests.executor": "Run",
-    "Gradle.TextBoxtests.fillFormTests.executor": "Run",
-    "Gradle.TextBoxtestsWithPO.executor": "Run",
-    "Gradle.TextBoxtestsWithPO.fillFormTests.executor": "Run",
-    "Gradle.TextBoxtestsWithPO.fillRequiredFields.executor": "Run",
-    "Gradle.TextBoxtestsWithPO.missFillingFields.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/AQA/AQA-start/src/test/resources",
-    "settings.editor.selected.configurable": "preferences.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.AQA-start [allureServe].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Birds.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Birds.fieldLoginEmpty.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Birds.fieldNotCorrectPassword.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Birds.fieldPasswordEmpty.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Birds.fillFormTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Birds.priceEurAndRub.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Birds.siteShouldHaveRusAndEndButton.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Birds.user.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FileParsingTest.csvFileParsingTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FileParsingTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FileParsingTest.jsonFileParsingImproovedTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FileParsingTest.jsonFileParsingTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FileParsingTest.pdfFileParsingTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FileParsingTest.xslsFileParsingTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FileParsingTest.zipFileParsingTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SelenideFilesTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SelenideFilesTest.uploadFileTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TextBoxtests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TextBoxtests.fillFormTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TextBoxtestsWithPO.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TextBoxtestsWithPO.fillFormTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TextBoxtestsWithPO.fillRequiredFields.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TextBoxtestsWithPO.missFillingFields.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/AQA/AQA-start/src/test/resources&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\AQA\AQA-start\src\test\resources" />
