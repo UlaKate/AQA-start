@@ -115,14 +115,14 @@ public class RegistrationPage {
     }
 
     public RegistrationPage confirmRegistration(){
-        executeJavaScript("""
-        document.querySelectorAll('footer, [class*="fiverr"], [id*="fiverr"]')
-            .forEach(el => el.remove());
-    """);
-        //executeJavaScript("arguments[0].click();", submitButton);
-        submitButton.shouldBe(Condition.clickable);
-        submitButton.scrollIntoView(true);
-        submitButton.click();
+        //executeJavaScript("""
+        //document.querySelectorAll('footer, [class*="fiverr"], [id*="fiverr"]')
+            //.forEach(el => el.remove());
+    //""");
+        executeJavaScript("arguments[0].click();", submitButton);
+        //submitButton.shouldBe(Condition.clickable);
+        //submitButton.scrollIntoView(true);
+        //submitButton.click();
 
         return this;
     }
