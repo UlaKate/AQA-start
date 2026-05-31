@@ -1,1 +1,0 @@
-{"uuid":"28c92cc9-d3e3-4d58-a3fd-8459df314bd2","name":"Класс Тестов на регистрацию нового пользователя","children":["27e3a83b-f0df-4e80-b637-5e0759ea5761"],"befores":[{"name":"BeforeAll","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1780175901826,"stop":1780175901840}],"afters":[],"start":1780175901779,"stop":1780175907501}
