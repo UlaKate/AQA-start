@@ -2,6 +2,7 @@ package tests;
 
 import com.codeborne.selenide.Configuration;
 import data.Language;
+import helper.Attach;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.*;
@@ -26,6 +27,7 @@ public class Birds extends BaseBirds{
 
 
     BirdsLoginPage birdsLoginPage = new BirdsLoginPage();
+
 
     @DisplayName("Проверяем что есть предупреждение о куках")
     @Test

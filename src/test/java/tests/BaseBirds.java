@@ -4,6 +4,7 @@ import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import helper.Attach;
 import io.qameta.allure.selenide.AllureSelenide;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
@@ -25,8 +26,10 @@ public class BaseBirds {
         ));
         Configuration.browserCapabilities = capabilities;
 
-        Attach.addVideo();
-
-
     }
+
+    @AfterEach
+    void afterEach(){
+        Attach.addVideo();
+    };
 }

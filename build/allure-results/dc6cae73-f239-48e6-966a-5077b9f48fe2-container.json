@@ -1,0 +1,1 @@
+{"uuid":"dc6cae73-f239-48e6-966a-5077b9f48fe2","name":"КЛАСС ТЕСТОВ НА АВТОРИЗАЦИЮ ПОЛЬЗОВАТЕЛЯ","children":["b2a357f5-0265-4571-9bcf-54e96637de77"],"befores":[{"name":"BeforeAll","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1780259980512,"stop":1780259980530}],"afters":[],"start":1780259980472,"stop":1780259991568}
