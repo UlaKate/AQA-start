@@ -1,6 +1,7 @@
 package tests;
 
 import com.codeborne.selenide.Configuration;
+import com.codeborne.selenide.WebDriverRunner;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import helper.Attach;
 import io.qameta.allure.selenide.AllureSelenide;
@@ -15,7 +16,7 @@ public class TestBase {
     static void BeforeAll() {
         Configuration.browserSize = "1366x768";
         Configuration.baseUrl = "https://demoqa.com";
-        Configuration.holdBrowserOpen = false;
+        //Configuration.holdBrowserOpen = false;
         Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -29,5 +30,6 @@ public class TestBase {
     @AfterEach
     void afterEach(){
         Attach.addVideo();
+        WebDriverRunner.closeWebDriver();
     }
 }
