@@ -18,6 +18,7 @@ public class BaseBirds {
         Configuration.holdBrowserOpen = true;
         SelenideLogger.addListener("allure", new AllureSelenide());
         Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
+        Configuration.holdBrowserOpen = false;
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("selenoid:options", Map.<String, Object>of(
