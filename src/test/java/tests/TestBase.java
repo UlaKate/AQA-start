@@ -14,6 +14,7 @@ import java.util.Map;
 public class TestBase {
     @BeforeAll
     static void BeforeAll() {
+        Configuration.browser = System.getProperty("browser", "chrome");
         Configuration.browserSize = "1366x768";
         Configuration.baseUrl = "https://demoqa.com";
         //Configuration.holdBrowserOpen = false;
