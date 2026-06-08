@@ -14,7 +14,14 @@ import java.util.Map;
 public class BaseBirds {
     @BeforeAll
     static void BeforeAll(){
+        System.out.println("======= ДИАГНОСТИКА =======");
+        System.out.println("Browser param: " + System.getProperty("browser"));
+
         Configuration.browser = System.getProperty("browser", "chrome");
+
+        System.out.println("Configuration.browser: " + Configuration.browser);
+        System.out.println("======= КОНЕЦ ДИАГНОСТИКИ =======");
+
         Configuration.browserSize = "1366x768";
         //Configuration.baseUrl = "https://bb1birds.ru/";
         //Configuration.holdBrowserOpen = true;
