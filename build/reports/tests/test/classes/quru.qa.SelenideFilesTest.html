@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - SelenideFilesTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>SelenideFilesTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/quru.qa.html">quru.qa</a> &gt; SelenideFilesTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">13.296s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">50%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="tab-container">
+<ul class="tabLinks">
+<li>
+<a href="#">Failed tests</a>
+</li>
+<li>
+<a href="#">Tests</a>
+</li>
+<li>
+<a href="#">Standard error</a>
+</li>
+</ul>
+<div class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="uploadFileTest()"></a>
+<h3 class="failures">uploadFileTest()</h3>
+<span class="code">
+<pre>Element should have text &quot;Р”Р°РЅРЅС‹Р№ С‚РёРїР° С„Р°Р№Р»Р° РЅРµ РїРѕРґРґРµСЂР¶РёРІР°РµС‚СЃСЏ&quot; {.modal-body div.h}
+Element: '&lt;div class=&quot;h&quot;&gt;Данный типа файла не поддерживается&lt;/div&gt;'
+Actual value: text=&quot;Данный типа файла не поддерживается&quot;
+Screenshot: file:/C:/AQA/AQA-start/build/reports/tests/1781037287901.0.png
+Page source: file:/C:/AQA/AQA-start/build/reports/tests/1781037287901.0.html
+Timeout: 4 s.
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:147)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:125)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:102)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:162)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app/jdk.proxy3/jdk.proxy3.$Proxy55.shouldHave(Unknown Source)
+	at app//quru.qa.SelenideFilesTest.uploadFileTest(SelenideFilesTest.java:34)
+</pre>
+</span>
+</div>
+</div>
+<div class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">downloadFileTest()</td>
+<td class="success">5.507s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">uploadFileTest()</td>
+<td class="failures">7.789s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>[Test worker] INFO com.codeborne.selenide.impl.DownloadFileWithHttpRequest - Cannot extract file name for https://github.com/junit-team/junit-framework/raw/refs/heads/main/README.md. Found headers: Connection=keep-alive, Cache-Control=max-age=300, Content-Security-Policy=default-src 'none'; style-src 'unsafe-inline'; sandbox, Content-Type=text/plain; charset=utf-8, ETag=W/&quot;b113c56f803450834d32bd00b14832171b5565415e378d65095f781d80d04ce0&quot;, Strict-Transport-Security=max-age=31536000, X-Content-Type-Options=nosniff, X-Frame-Options=deny, X-XSS-Protection=1; mode=block, X-GitHub-Request-Id=902C:1971B5:27CAEA:44682C:6A286D26, Accept-Ranges=bytes, Date=Tue, 09 Jun 2026 20:34:41 GMT, Via=1.1 varnish, X-Served-By=cache-bma-essb1270076-BMA, X-Cache=HIT, X-Cache-Hits=0, X-Timer=S1781037281.004108,VS0,VE155, Vary=Authorization,Accept-Encoding, Access-Control-Allow-Origin=*, Cross-Origin-Resource-Policy=cross-origin, X-Fastly-Request-ID=cee372f42b04bcd398db14839359d5fe36058447, Expires=Tue, 09 Jun 2026 20:39:41 GMT, Source-Age=0
+[Test worker] INFO com.codeborne.selenide.impl.DownloadFileWithHttpRequest - Generated file name for https://github.com/junit-team/junit-framework/raw/refs/heads/main/README.md: README.md
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\AQA\AQA-start\build\downloads\bbdf26a5-a04a-47bc-8474-fe03a3d76403
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="https://www.gradle.org">Gradle 8.14.3</a> at 9 июн. 2026 г., 23:43:16</p>
+</div>
+</div>
+</body>
+</html>
