@@ -31,6 +31,7 @@ public class TestBase {
         System.out.println("Configuration.browser AFTER: " + Configuration.browser);
         System.out.println("========== КОНЕЦ ДИАГНОСТИКИ ==========");
 
+        Configuration.browser = System.getProperty("browser", "chrome");
         Configuration.browserSize = "1366x768";
         Configuration.baseUrl = "https://demoqa.com";
         //Configuration.holdBrowserOpen = false;
