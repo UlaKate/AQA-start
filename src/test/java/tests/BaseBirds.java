@@ -14,9 +14,7 @@ import java.util.Map;
 public class BaseBirds {
     @BeforeAll
     static void BeforeAll(){
-
-
-        Configuration.browser = System.getProperty("browser", "opera");
+        Configuration.browser = System.getProperty("browser");
         Configuration.browserSize = "1366x768";
         //Configuration.baseUrl = "https://bb1birds.ru/";
         //Configuration.holdBrowserOpen = true;

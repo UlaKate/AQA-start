@@ -5,23 +5,182 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6bb35d52-a11d-4312-bdf3-1cb8c3a78ad4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.13/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.13/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/03397515-76f0-4498-b5dc-abcfc94b9da2-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/144352f0-6ec6-48f3-935c-af166f0d1184-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/211c2636-57c9-4e2e-b2c1-4b3fa654c7b4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/270e55c3-fa87-4fa2-b95d-7726f7de8003-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/3f768bb4-e6d8-4754-9067-240130b4c880-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/67555367-800e-4ffa-83f4-d603db17d12d-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/74ed5fe9-ad20-423a-92d9-d5539af0df04-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/77e33aa4-e69a-4530-96dc-cb0c8ad54672-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/8d6c6772-b756-413f-b0ec-881a262ba808-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/8e858a1c-5dd5-47b0-a1bf-1367fce9fa7f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/9180c9e4-1828-48e4-b379-86599bd0ae03-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/a152bfc0-1446-42d0-8fff-2306863ad93a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/aa8780f8-9a48-47fb-9c71-83e10f6fa792-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/b2a94de0-870a-4a71-abab-5bd2774bed09-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/bf07ee1e-0fd6-474c-a88d-39d2a5c05bca-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/bf1e9d34-6a97-4cc5-bbf4-70e9170891ff-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/c1c4fc54-09d5-4da6-aef1-e081acdfd72d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/c974f904-0cf6-4838-b643-c1a778b390ac-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/ceb0e9a8-d6ee-4778-a9db-627c3a044745-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/cf1fb963-9b3e-447b-bddd-b829949f5e8c-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/d049bbb8-2c51-4a93-8cb7-b2cb01a7774e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/d08d0f1f-6497-4907-a117-1d59bdc1ae5d-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/d7fda1f9-89d0-4398-927f-f131f7f2618d-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/dbb57986-78ba-41ac-a21b-1724b4794cc0-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/e94c9fef-5d06-4992-a2a9-ba5e0f8d64da-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/eca920f2-21dc-4519-a765-f30370b41d4c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/f4567148-49cf-462e-a4cf-605994b64a60-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/f50cc144-7a73-46dd-9f06-93a63c3e7ab8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/f8312f48-2456-4e55-92fb-99589fa5db21-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/fcd1ceed-56b6-4995-98f9-c39ab6513791-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure/commandline/bin/allure" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure/commandline/bin/allure.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure/commandline/config/allure-cucumber.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure/commandline/config/allure-junit.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure/commandline/config/allure.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure/commandline/lib/config/jetty-logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure/commandline/plugins/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure/commandline/plugins/behaviors-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure/commandline/plugins/behaviors-plugin/static/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure/commandline/plugins/custom-logo-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure/commandline/plugins/custom-logo-plugin/static/custom-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure/commandline/plugins/custom-logo-plugin/static/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure/commandline/plugins/jira-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure/commandline/plugins/junit-xml-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure/commandline/plugins/packages-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure/commandline/plugins/packages-plugin/static/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure/commandline/plugins/screen-diff-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure/commandline/plugins/screen-diff-plugin/static/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure/commandline/plugins/screen-diff-plugin/static/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure/commandline/plugins/trx-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure/commandline/plugins/xctest-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure/commandline/plugins/xray-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure/commandline/plugins/xunit-xml-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/0b595b87-dc09-4243-8d22-77b80950eb06/sample5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/0ba495c9-7f0a-45bb-9b91-db9d2099cd54/junit-user-guide-6.1.0.pdf_overview" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/0d931ced-44d4-4715-814a-919ea805fe0d/sample5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/15603ac2-cecc-4ea5-bab1-aebfa5f4387e/junit-user-guide-6.1.0.pdf_overview" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/1793075f-963c-4d4f-98e5-333dbd679816/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/1e2c9db5-2212-44ac-8849-b28496d2a6f5/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/1e6a329b-fe06-4a01-bbd1-76962d77fe7e/sample5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/2003f162-345a-49a6-873f-d27be357f5e7/sample5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/24cc981f-f388-40d0-bf3f-2f62a4e54b5a/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/28236094-e7c6-4281-a83c-5b62546ad521/junit-user-guide-6.1.0.pdf_overview" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/2a8d1462-d109-4cac-b702-38cc85a1756c/teachers.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/2c3040d0-e881-4be2-b55a-5c24bede8486/sample5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/3391786c-7906-4b7a-bade-bf958ec14835/sample5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/448b2f83-4c76-4c0e-8588-3f8991336328/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/4844ab60-607e-492b-8431-dbf64436a17a/teachers.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/4b4e1b28-b1ae-4db2-ad61-701dd9d26cb2/sample5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/5d4ba727-aae9-49bb-bb23-2f6c676df27c/sample5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/64105b92-3ea8-4d01-af20-e045bd4cb5b3/sample5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/7141c1ca-51de-4dd3-b896-877ceb46d8e0/sample5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/7247659a-92d0-4951-93da-5c7661eb6d71/teachers.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/7ddfc680-08f2-4bc3-83d8-2c2b92a25f15/teachers.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/7e52cd1b-bb1e-4c44-b284-8459ae055be6/sample5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/7e6d4509-fdbc-493c-8f7f-f45b97de90c8/junit-user-guide-6.1.0.pdf_overview" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/9b15b38f-9266-4751-857c-5efb046f58be/sample5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/9fa157b8-cfe5-4870-ae0b-791fed994a82/sample5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/a11bb85a-e15a-488b-8995-ec2157f13dea/teachers.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/a278b116-e701-417c-ae85-0376db32c479/sample5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/a820afd5-b84b-4d3d-bc2d-64512ba1151b/teachers.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/a8cafe00-8d0f-42ed-925d-0febbddcfe77/sample5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/b6f163d1-a976-4caa-8dfc-d9b850991ae8/teachers.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/bbdf26a5-a04a-47bc-8474-fe03a3d76403/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/bbfd1679-8117-416e-aa45-fa68deb8b881/junit-user-guide-6.1.0.pdf_overview" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/ce4c6e9d-6d93-4cd0-8381-ac68318660a9/sample-empty.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/d3f98232-d7e1-4dc6-b52f-4d1881caa927/sample5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/d55ce3a6-05b7-447f-a9b4-845c5ce7f81e/teachers.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/e93f8c4a-7fd2-4499-8b80-a1978fcefd10/sample-empty.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads/f9f98304-9f8b-463c-b02c-3e849be596c5/junit-user-guide-6.1.0.pdf_overview" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1779650640166.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1779650640166.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1779650704566.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1779650704566.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1779650759775.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1779650759775.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1779650994775.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1779650994775.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1779651143925.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1779651143925.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1779653365560.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1779653365560.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1779653544498.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1779653544498.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1779655550974.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1779655550974.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1779655674706.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1779655674706.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1779655766227.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1779655766227.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1779655906855.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1779655906855.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1780858216856.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1780858216856.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1780858223962.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1780858223962.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1780858360380.2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1780858360380.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1780858377193.3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1780858377193.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1780858403351.4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1780858403351.4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1780858425939.5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1780858425939.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1780858444896.6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1780858444896.6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1780858467757.7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1780858467757.7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1781037287901.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1781037287901.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1781037295504.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1781037295504.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1781037550818.2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1781037550818.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1781037599541.3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1781037599541.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1781037635385.4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1781037635385.4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1781037662029.5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1781037662029.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1781037688388.6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1781037688388.6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1781037714897.7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1781037714897.7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1781037767987.8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1781037767987.8.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.TextBoxtestsWithPO.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.TextBoxtestsWithPO.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/tests.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-tests.TextBoxtestsWithPO.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-tests.TextBoxtestsWithPO.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/BaseBirds.class.uniqueId3" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/BaseBirds.class.uniqueId3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/TestBase.class.uniqueId2" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/TestBase.class.uniqueId2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/BaseBirds.class.uniqueId3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/Birds.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/TestBase.class.uniqueId2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseBirds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseBirds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +253,7 @@
     "Gradle.Birds.priceEurAndRub.executor": "Run",
     "Gradle.Birds.siteShouldHaveRusAndEndButton.executor": "Run",
     "Gradle.Birds.user.executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
     "Gradle.FileParsingTest.csvFileParsingTest.executor": "Run",
     "Gradle.FileParsingTest.executor": "Run",
     "Gradle.FileParsingTest.jsonFileParsingImproovedTest.executor": "Run",
@@ -174,30 +334,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="Birds.user" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.Birds.user&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="SystemPropertiesTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -246,10 +382,34 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="TextBoxtestsWithPO.fillFormTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.TextBoxtestsWithPO.fillFormTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Gradle.TextBoxtestsWithPO.fillFormTests" />
       <item itemvalue="Gradle.AQA-start [allureServe]" />
       <item itemvalue="Gradle.Birds" />
-      <item itemvalue="Gradle.Birds.user" />
       <item itemvalue="Gradle.SystemPropertiesTests" />
       <item itemvalue="Gradle.TextBoxtestsWithPO" />
     </list>
@@ -257,9 +417,9 @@
       <list>
         <item itemvalue="Gradle.TextBoxtestsWithPO" />
         <item itemvalue="Gradle.Birds" />
+        <item itemvalue="Gradle.TextBoxtestsWithPO.fillFormTests" />
         <item itemvalue="Gradle.SystemPropertiesTests" />
         <item itemvalue="Gradle.AQA-start [allureServe]" />
-        <item itemvalue="Gradle.Birds.user" />
       </list>
     </recent_temporary>
   </component>
