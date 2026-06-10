@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="properties.test.SystemPropertiesTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-06-09T20:33:49.538Z" hostname="KOMPUTER" time="0.044">
-  <properties/>
-  <testcase name="systemPropertiesTests()" classname="properties.test.SystemPropertiesTests" time="0.044"/>
-  <system-out><![CDATA[firefox
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
