@@ -29,7 +29,7 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">17</div>
+<div class="counter">0</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.335s</div>
+<div class="counter">3m15.96s</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,8 +50,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox failures" id="successRate">
-<div class="percent">0%</div>
+<div class="infoBox skipped" id="successRate">
+<div class="percent">100%</div>
 <p>successful</p>
 </div>
 </td>
@@ -61,615 +61,12 @@
 <div class="tab-container">
 <ul class="tabLinks">
 <li>
-<a href="#">Failed tests</a>
-</li>
-<li>
 <a href="#">Tests</a>
 </li>
 <li>
 <a href="#">Standard error</a>
 </li>
 </ul>
-<div class="tab">
-<h2>Failed tests</h2>
-<div class="test">
-<a name="fieldLoginEmpty(String, String)[1]"></a>
-<h3 class="failures">правильный пароль &quot;1234561111111111111111&quot; появляется предупреждение &quot;Неверный логин или пароль.&quot;</h3>
-<span class="code">
-<pre>java.lang.NullPointerException: Cannot invoke &quot;String.toLowerCase(java.util.Locale)&quot; because &quot;browser.name&quot; is null
-	at com.codeborne.selenide.webdriver.WebDriverFactory.findFactory(WebDriverFactory.java:125)
-	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriverInstance(WebDriverFactory.java:110)
-	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:67)
-	at com.codeborne.selenide.drivercommands.CreateDriverCommand.lambda$createDriver$0(CreateDriverCommand.java:72)
-	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
-	at com.codeborne.selenide.logevents.SelenideLogger.get(SelenideLogger.java:113)
-	at com.codeborne.selenide.drivercommands.CreateDriverCommand.createDriver(CreateDriverCommand.java:48)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:189)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createAndRegisterDriver(WebDriverThreadLocalContainer.java:174)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:136)
-	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:113)
-	at com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)
-	at com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:211)
-	at com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:70)
-	at com.codeborne.selenide.logevents.SelenideLogger.lambda$run$0(SelenideLogger.java:105)
-	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
-	at com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:104)
-	at com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:68)
-	at com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:31)
-	at com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:93)
-	at com.codeborne.selenide.Selenide.open(Selenide.java:53)
-	at pages.BirdsLoginPage.openPage(BirdsLoginPage.java:23)
-	at tests.Birds.fieldLoginEmpty(Birds.java:75)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="fieldLoginEmpty(String, String)[2]"></a>
-<h3 class="failures">правильный пароль &quot;УУУУУУУУУУУУ&quot; появляется предупреждение &quot;Неверный логин или пароль.&quot;</h3>
-<span class="code">
-<pre>java.lang.NullPointerException: Cannot invoke &quot;String.toLowerCase(java.util.Locale)&quot; because &quot;browser.name&quot; is null
-	at com.codeborne.selenide.webdriver.WebDriverFactory.findFactory(WebDriverFactory.java:125)
-	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriverInstance(WebDriverFactory.java:110)
-	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:67)
-	at com.codeborne.selenide.drivercommands.CreateDriverCommand.lambda$createDriver$0(CreateDriverCommand.java:72)
-	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
-	at com.codeborne.selenide.logevents.SelenideLogger.get(SelenideLogger.java:113)
-	at com.codeborne.selenide.drivercommands.CreateDriverCommand.createDriver(CreateDriverCommand.java:48)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:189)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createAndRegisterDriver(WebDriverThreadLocalContainer.java:174)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:136)
-	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:113)
-	at com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)
-	at com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:211)
-	at com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:70)
-	at com.codeborne.selenide.logevents.SelenideLogger.lambda$run$0(SelenideLogger.java:105)
-	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
-	at com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:104)
-	at com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:68)
-	at com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:31)
-	at com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:93)
-	at com.codeborne.selenide.Selenide.open(Selenide.java:53)
-	at pages.BirdsLoginPage.openPage(BirdsLoginPage.java:23)
-	at tests.Birds.fieldLoginEmpty(Birds.java:75)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="fieldNotCorrectPassword(String, String)[1]"></a>
-<h3 class="failures">Вводиться неверный пароль &quot;1&quot; и появляется предупреждение &quot;Неверный логин или пароль.&quot;</h3>
-<span class="code">
-<pre>java.lang.NullPointerException: Cannot invoke &quot;String.toLowerCase(java.util.Locale)&quot; because &quot;browser.name&quot; is null
-	at com.codeborne.selenide.webdriver.WebDriverFactory.findFactory(WebDriverFactory.java:125)
-	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriverInstance(WebDriverFactory.java:110)
-	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:67)
-	at com.codeborne.selenide.drivercommands.CreateDriverCommand.lambda$createDriver$0(CreateDriverCommand.java:72)
-	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
-	at com.codeborne.selenide.logevents.SelenideLogger.get(SelenideLogger.java:113)
-	at com.codeborne.selenide.drivercommands.CreateDriverCommand.createDriver(CreateDriverCommand.java:48)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:189)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createAndRegisterDriver(WebDriverThreadLocalContainer.java:174)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:136)
-	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:113)
-	at com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)
-	at com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:211)
-	at com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:70)
-	at com.codeborne.selenide.logevents.SelenideLogger.lambda$run$0(SelenideLogger.java:105)
-	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
-	at com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:104)
-	at com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:68)
-	at com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:31)
-	at com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:93)
-	at com.codeborne.selenide.Selenide.open(Selenide.java:53)
-	at pages.BirdsLoginPage.openPage(BirdsLoginPage.java:23)
-	at tests.Birds.lambda$fieldNotCorrectPassword$1(Birds.java:92)
-	at io.qameta.allure.Allure.lambda$step$0(Allure.java:112)
-	at io.qameta.allure.Allure.lambda$step$1(Allure.java:126)
-	at io.qameta.allure.Allure.step(Allure.java:180)
-	at io.qameta.allure.Allure.step(Allure.java:124)
-	at io.qameta.allure.Allure.step(Allure.java:111)
-	at tests.Birds.fieldNotCorrectPassword(Birds.java:90)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="fieldNotCorrectPassword(String, String)[2]"></a>
-<h3 class="failures">Вводиться неверный пароль &quot;dfgdfgfdg&quot; и появляется предупреждение &quot;Неверный логин или пароль.&quot;</h3>
-<span class="code">
-<pre>java.lang.NullPointerException: Cannot invoke &quot;String.toLowerCase(java.util.Locale)&quot; because &quot;browser.name&quot; is null
-	at com.codeborne.selenide.webdriver.WebDriverFactory.findFactory(WebDriverFactory.java:125)
-	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriverInstance(WebDriverFactory.java:110)
-	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:67)
-	at com.codeborne.selenide.drivercommands.CreateDriverCommand.lambda$createDriver$0(CreateDriverCommand.java:72)
-	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
-	at com.codeborne.selenide.logevents.SelenideLogger.get(SelenideLogger.java:113)
-	at com.codeborne.selenide.drivercommands.CreateDriverCommand.createDriver(CreateDriverCommand.java:48)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:189)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createAndRegisterDriver(WebDriverThreadLocalContainer.java:174)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:136)
-	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:113)
-	at com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)
-	at com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:211)
-	at com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:70)
-	at com.codeborne.selenide.logevents.SelenideLogger.lambda$run$0(SelenideLogger.java:105)
-	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
-	at com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:104)
-	at com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:68)
-	at com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:31)
-	at com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:93)
-	at com.codeborne.selenide.Selenide.open(Selenide.java:53)
-	at pages.BirdsLoginPage.openPage(BirdsLoginPage.java:23)
-	at tests.Birds.lambda$fieldNotCorrectPassword$1(Birds.java:92)
-	at io.qameta.allure.Allure.lambda$step$0(Allure.java:112)
-	at io.qameta.allure.Allure.lambda$step$1(Allure.java:126)
-	at io.qameta.allure.Allure.step(Allure.java:180)
-	at io.qameta.allure.Allure.step(Allure.java:124)
-	at io.qameta.allure.Allure.step(Allure.java:111)
-	at tests.Birds.fieldNotCorrectPassword(Birds.java:90)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="fieldNotCorrectPassword(String, String)[3]"></a>
-<h3 class="failures">Вводиться неверный пароль &quot;2&quot; и появляется предупреждение &quot;Неверный логин или пароль.&quot;</h3>
-<span class="code">
-<pre>java.lang.NullPointerException: Cannot invoke &quot;String.toLowerCase(java.util.Locale)&quot; because &quot;browser.name&quot; is null
-	at com.codeborne.selenide.webdriver.WebDriverFactory.findFactory(WebDriverFactory.java:125)
-	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriverInstance(WebDriverFactory.java:110)
-	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:67)
-	at com.codeborne.selenide.drivercommands.CreateDriverCommand.lambda$createDriver$0(CreateDriverCommand.java:72)
-	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
-	at com.codeborne.selenide.logevents.SelenideLogger.get(SelenideLogger.java:113)
-	at com.codeborne.selenide.drivercommands.CreateDriverCommand.createDriver(CreateDriverCommand.java:48)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:189)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createAndRegisterDriver(WebDriverThreadLocalContainer.java:174)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:136)
-	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:113)
-	at com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)
-	at com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:211)
-	at com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:70)
-	at com.codeborne.selenide.logevents.SelenideLogger.lambda$run$0(SelenideLogger.java:105)
-	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
-	at com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:104)
-	at com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:68)
-	at com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:31)
-	at com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:93)
-	at com.codeborne.selenide.Selenide.open(Selenide.java:53)
-	at pages.BirdsLoginPage.openPage(BirdsLoginPage.java:23)
-	at tests.Birds.lambda$fieldNotCorrectPassword$1(Birds.java:92)
-	at io.qameta.allure.Allure.lambda$step$0(Allure.java:112)
-	at io.qameta.allure.Allure.lambda$step$1(Allure.java:126)
-	at io.qameta.allure.Allure.step(Allure.java:180)
-	at io.qameta.allure.Allure.step(Allure.java:124)
-	at io.qameta.allure.Allure.step(Allure.java:111)
-	at tests.Birds.fieldNotCorrectPassword(Birds.java:90)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="fieldNotCorrectPassword(String, String)[4]"></a>
-<h3 class="failures">Вводиться неверный пароль &quot;!!!!!!!&quot; и появляется предупреждение &quot;Неверный логин или пароль.&quot;</h3>
-<span class="code">
-<pre>java.lang.NullPointerException: Cannot invoke &quot;String.toLowerCase(java.util.Locale)&quot; because &quot;browser.name&quot; is null
-	at com.codeborne.selenide.webdriver.WebDriverFactory.findFactory(WebDriverFactory.java:125)
-	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriverInstance(WebDriverFactory.java:110)
-	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:67)
-	at com.codeborne.selenide.drivercommands.CreateDriverCommand.lambda$createDriver$0(CreateDriverCommand.java:72)
-	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
-	at com.codeborne.selenide.logevents.SelenideLogger.get(SelenideLogger.java:113)
-	at com.codeborne.selenide.drivercommands.CreateDriverCommand.createDriver(CreateDriverCommand.java:48)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:189)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createAndRegisterDriver(WebDriverThreadLocalContainer.java:174)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:136)
-	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:113)
-	at com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)
-	at com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:211)
-	at com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:70)
-	at com.codeborne.selenide.logevents.SelenideLogger.lambda$run$0(SelenideLogger.java:105)
-	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
-	at com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:104)
-	at com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:68)
-	at com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:31)
-	at com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:93)
-	at com.codeborne.selenide.Selenide.open(Selenide.java:53)
-	at pages.BirdsLoginPage.openPage(BirdsLoginPage.java:23)
-	at tests.Birds.lambda$fieldNotCorrectPassword$1(Birds.java:92)
-	at io.qameta.allure.Allure.lambda$step$0(Allure.java:112)
-	at io.qameta.allure.Allure.lambda$step$1(Allure.java:126)
-	at io.qameta.allure.Allure.step(Allure.java:180)
-	at io.qameta.allure.Allure.step(Allure.java:124)
-	at io.qameta.allure.Allure.step(Allure.java:111)
-	at tests.Birds.fieldNotCorrectPassword(Birds.java:90)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="fieldNotCorrectPassword(String, String)[5]"></a>
-<h3 class="failures">Вводиться неверный пароль &quot;********&quot; и появляется предупреждение &quot;Неверный логин или пароль.&quot;</h3>
-<span class="code">
-<pre>java.lang.NullPointerException: Cannot invoke &quot;String.toLowerCase(java.util.Locale)&quot; because &quot;browser.name&quot; is null
-	at com.codeborne.selenide.webdriver.WebDriverFactory.findFactory(WebDriverFactory.java:125)
-	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriverInstance(WebDriverFactory.java:110)
-	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:67)
-	at com.codeborne.selenide.drivercommands.CreateDriverCommand.lambda$createDriver$0(CreateDriverCommand.java:72)
-	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
-	at com.codeborne.selenide.logevents.SelenideLogger.get(SelenideLogger.java:113)
-	at com.codeborne.selenide.drivercommands.CreateDriverCommand.createDriver(CreateDriverCommand.java:48)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:189)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createAndRegisterDriver(WebDriverThreadLocalContainer.java:174)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:136)
-	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:113)
-	at com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)
-	at com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:211)
-	at com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:70)
-	at com.codeborne.selenide.logevents.SelenideLogger.lambda$run$0(SelenideLogger.java:105)
-	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
-	at com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:104)
-	at com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:68)
-	at com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:31)
-	at com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:93)
-	at com.codeborne.selenide.Selenide.open(Selenide.java:53)
-	at pages.BirdsLoginPage.openPage(BirdsLoginPage.java:23)
-	at tests.Birds.lambda$fieldNotCorrectPassword$1(Birds.java:92)
-	at io.qameta.allure.Allure.lambda$step$0(Allure.java:112)
-	at io.qameta.allure.Allure.lambda$step$1(Allure.java:126)
-	at io.qameta.allure.Allure.step(Allure.java:180)
-	at io.qameta.allure.Allure.step(Allure.java:124)
-	at io.qameta.allure.Allure.step(Allure.java:111)
-	at tests.Birds.fieldNotCorrectPassword(Birds.java:90)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="fieldNotCorrectPassword(String, String)[6]"></a>
-<h3 class="failures">Вводиться неверный пароль &quot;%*&amp;YJHJfg&quot; и появляется предупреждение &quot;Неверный логин или пароль.&quot;</h3>
-<span class="code">
-<pre>java.lang.NullPointerException: Cannot invoke &quot;String.toLowerCase(java.util.Locale)&quot; because &quot;browser.name&quot; is null
-	at com.codeborne.selenide.webdriver.WebDriverFactory.findFactory(WebDriverFactory.java:125)
-	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriverInstance(WebDriverFactory.java:110)
-	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:67)
-	at com.codeborne.selenide.drivercommands.CreateDriverCommand.lambda$createDriver$0(CreateDriverCommand.java:72)
-	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
-	at com.codeborne.selenide.logevents.SelenideLogger.get(SelenideLogger.java:113)
-	at com.codeborne.selenide.drivercommands.CreateDriverCommand.createDriver(CreateDriverCommand.java:48)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:189)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createAndRegisterDriver(WebDriverThreadLocalContainer.java:174)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:136)
-	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:113)
-	at com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)
-	at com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:211)
-	at com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:70)
-	at com.codeborne.selenide.logevents.SelenideLogger.lambda$run$0(SelenideLogger.java:105)
-	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
-	at com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:104)
-	at com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:68)
-	at com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:31)
-	at com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:93)
-	at com.codeborne.selenide.Selenide.open(Selenide.java:53)
-	at pages.BirdsLoginPage.openPage(BirdsLoginPage.java:23)
-	at tests.Birds.lambda$fieldNotCorrectPassword$1(Birds.java:92)
-	at io.qameta.allure.Allure.lambda$step$0(Allure.java:112)
-	at io.qameta.allure.Allure.lambda$step$1(Allure.java:126)
-	at io.qameta.allure.Allure.step(Allure.java:180)
-	at io.qameta.allure.Allure.step(Allure.java:124)
-	at io.qameta.allure.Allure.step(Allure.java:111)
-	at tests.Birds.fieldNotCorrectPassword(Birds.java:90)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="fieldNotCorrectPassword(String, String)[7]"></a>
-<h3 class="failures">Вводиться неверный пароль &quot;GGGGGGGGG&quot; и появляется предупреждение &quot;Неверный логин или пароль.&quot;</h3>
-<span class="code">
-<pre>java.lang.NullPointerException: Cannot invoke &quot;String.toLowerCase(java.util.Locale)&quot; because &quot;browser.name&quot; is null
-	at com.codeborne.selenide.webdriver.WebDriverFactory.findFactory(WebDriverFactory.java:125)
-	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriverInstance(WebDriverFactory.java:110)
-	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:67)
-	at com.codeborne.selenide.drivercommands.CreateDriverCommand.lambda$createDriver$0(CreateDriverCommand.java:72)
-	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
-	at com.codeborne.selenide.logevents.SelenideLogger.get(SelenideLogger.java:113)
-	at com.codeborne.selenide.drivercommands.CreateDriverCommand.createDriver(CreateDriverCommand.java:48)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:189)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createAndRegisterDriver(WebDriverThreadLocalContainer.java:174)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:136)
-	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:113)
-	at com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)
-	at com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:211)
-	at com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:70)
-	at com.codeborne.selenide.logevents.SelenideLogger.lambda$run$0(SelenideLogger.java:105)
-	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
-	at com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:104)
-	at com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:68)
-	at com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:31)
-	at com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:93)
-	at com.codeborne.selenide.Selenide.open(Selenide.java:53)
-	at pages.BirdsLoginPage.openPage(BirdsLoginPage.java:23)
-	at tests.Birds.lambda$fieldNotCorrectPassword$1(Birds.java:92)
-	at io.qameta.allure.Allure.lambda$step$0(Allure.java:112)
-	at io.qameta.allure.Allure.lambda$step$1(Allure.java:126)
-	at io.qameta.allure.Allure.step(Allure.java:180)
-	at io.qameta.allure.Allure.step(Allure.java:124)
-	at io.qameta.allure.Allure.step(Allure.java:111)
-	at tests.Birds.fieldNotCorrectPassword(Birds.java:90)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="fieldNotCorrectPassword(String, String)[8]"></a>
-<h3 class="failures">Вводиться неверный пароль &quot;00000-0000&quot; и появляется предупреждение &quot;Неверный логин или пароль.&quot;</h3>
-<span class="code">
-<pre>java.lang.NullPointerException: Cannot invoke &quot;String.toLowerCase(java.util.Locale)&quot; because &quot;browser.name&quot; is null
-	at com.codeborne.selenide.webdriver.WebDriverFactory.findFactory(WebDriverFactory.java:125)
-	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriverInstance(WebDriverFactory.java:110)
-	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:67)
-	at com.codeborne.selenide.drivercommands.CreateDriverCommand.lambda$createDriver$0(CreateDriverCommand.java:72)
-	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
-	at com.codeborne.selenide.logevents.SelenideLogger.get(SelenideLogger.java:113)
-	at com.codeborne.selenide.drivercommands.CreateDriverCommand.createDriver(CreateDriverCommand.java:48)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:189)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createAndRegisterDriver(WebDriverThreadLocalContainer.java:174)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:136)
-	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:113)
-	at com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)
-	at com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:211)
-	at com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:70)
-	at com.codeborne.selenide.logevents.SelenideLogger.lambda$run$0(SelenideLogger.java:105)
-	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
-	at com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:104)
-	at com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:68)
-	at com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:31)
-	at com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:93)
-	at com.codeborne.selenide.Selenide.open(Selenide.java:53)
-	at pages.BirdsLoginPage.openPage(BirdsLoginPage.java:23)
-	at tests.Birds.lambda$fieldNotCorrectPassword$1(Birds.java:92)
-	at io.qameta.allure.Allure.lambda$step$0(Allure.java:112)
-	at io.qameta.allure.Allure.lambda$step$1(Allure.java:126)
-	at io.qameta.allure.Allure.step(Allure.java:180)
-	at io.qameta.allure.Allure.step(Allure.java:124)
-	at io.qameta.allure.Allure.step(Allure.java:111)
-	at tests.Birds.fieldNotCorrectPassword(Birds.java:90)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="fieldNotCorrectPassword(String, String)[9]"></a>
-<h3 class="failures">Вводиться неверный пароль &quot;30&quot; и появляется предупреждение &quot;Неверный логин или пароль.&quot;</h3>
-<span class="code">
-<pre>java.lang.NullPointerException: Cannot invoke &quot;String.toLowerCase(java.util.Locale)&quot; because &quot;browser.name&quot; is null
-	at com.codeborne.selenide.webdriver.WebDriverFactory.findFactory(WebDriverFactory.java:125)
-	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriverInstance(WebDriverFactory.java:110)
-	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:67)
-	at com.codeborne.selenide.drivercommands.CreateDriverCommand.lambda$createDriver$0(CreateDriverCommand.java:72)
-	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
-	at com.codeborne.selenide.logevents.SelenideLogger.get(SelenideLogger.java:113)
-	at com.codeborne.selenide.drivercommands.CreateDriverCommand.createDriver(CreateDriverCommand.java:48)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:189)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createAndRegisterDriver(WebDriverThreadLocalContainer.java:174)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:136)
-	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:113)
-	at com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)
-	at com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:211)
-	at com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:70)
-	at com.codeborne.selenide.logevents.SelenideLogger.lambda$run$0(SelenideLogger.java:105)
-	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
-	at com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:104)
-	at com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:68)
-	at com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:31)
-	at com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:93)
-	at com.codeborne.selenide.Selenide.open(Selenide.java:53)
-	at pages.BirdsLoginPage.openPage(BirdsLoginPage.java:23)
-	at tests.Birds.lambda$fieldNotCorrectPassword$1(Birds.java:92)
-	at io.qameta.allure.Allure.lambda$step$0(Allure.java:112)
-	at io.qameta.allure.Allure.lambda$step$1(Allure.java:126)
-	at io.qameta.allure.Allure.step(Allure.java:180)
-	at io.qameta.allure.Allure.step(Allure.java:124)
-	at io.qameta.allure.Allure.step(Allure.java:111)
-	at tests.Birds.fieldNotCorrectPassword(Birds.java:90)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="fillFormTests()"></a>
-<h3 class="failures">Проверяем что есть предупреждение о куках</h3>
-<span class="code">
-<pre>java.lang.NullPointerException: Cannot invoke &quot;String.toLowerCase(java.util.Locale)&quot; because &quot;browser.name&quot; is null
-	at com.codeborne.selenide.webdriver.WebDriverFactory.findFactory(WebDriverFactory.java:125)
-	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriverInstance(WebDriverFactory.java:110)
-	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:67)
-	at com.codeborne.selenide.drivercommands.CreateDriverCommand.lambda$createDriver$0(CreateDriverCommand.java:72)
-	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
-	at com.codeborne.selenide.logevents.SelenideLogger.get(SelenideLogger.java:113)
-	at com.codeborne.selenide.drivercommands.CreateDriverCommand.createDriver(CreateDriverCommand.java:48)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:189)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createAndRegisterDriver(WebDriverThreadLocalContainer.java:174)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:136)
-	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:113)
-	at com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)
-	at com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:211)
-	at com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:70)
-	at com.codeborne.selenide.logevents.SelenideLogger.lambda$run$0(SelenideLogger.java:105)
-	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
-	at com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:104)
-	at com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:68)
-	at com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:31)
-	at com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:93)
-	at com.codeborne.selenide.Selenide.open(Selenide.java:53)
-	at pages.BirdsLoginPage.openPage(BirdsLoginPage.java:23)
-	at tests.Birds.fillFormTests(Birds.java:35)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="priceEurAndRub(Language)[1]"></a>
-<h3 class="failures">[1] RU</h3>
-<span class="code">
-<pre>java.lang.NullPointerException: Cannot invoke &quot;String.toLowerCase(java.util.Locale)&quot; because &quot;browser.name&quot; is null
-	at com.codeborne.selenide.webdriver.WebDriverFactory.findFactory(WebDriverFactory.java:125)
-	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriverInstance(WebDriverFactory.java:110)
-	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:67)
-	at com.codeborne.selenide.drivercommands.CreateDriverCommand.lambda$createDriver$0(CreateDriverCommand.java:72)
-	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
-	at com.codeborne.selenide.logevents.SelenideLogger.get(SelenideLogger.java:113)
-	at com.codeborne.selenide.drivercommands.CreateDriverCommand.createDriver(CreateDriverCommand.java:48)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:189)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createAndRegisterDriver(WebDriverThreadLocalContainer.java:174)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:136)
-	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:113)
-	at com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)
-	at com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:211)
-	at com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:70)
-	at com.codeborne.selenide.logevents.SelenideLogger.lambda$run$0(SelenideLogger.java:105)
-	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
-	at com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:104)
-	at com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:68)
-	at com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:31)
-	at com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:93)
-	at com.codeborne.selenide.Selenide.open(Selenide.java:53)
-	at tests.Birds.priceEurAndRub(Birds.java:123)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="priceEurAndRub(Language)[2]"></a>
-<h3 class="failures">[2] EN</h3>
-<span class="code">
-<pre>java.lang.NullPointerException: Cannot invoke &quot;String.toLowerCase(java.util.Locale)&quot; because &quot;browser.name&quot; is null
-	at com.codeborne.selenide.webdriver.WebDriverFactory.findFactory(WebDriverFactory.java:125)
-	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriverInstance(WebDriverFactory.java:110)
-	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:67)
-	at com.codeborne.selenide.drivercommands.CreateDriverCommand.lambda$createDriver$0(CreateDriverCommand.java:72)
-	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
-	at com.codeborne.selenide.logevents.SelenideLogger.get(SelenideLogger.java:113)
-	at com.codeborne.selenide.drivercommands.CreateDriverCommand.createDriver(CreateDriverCommand.java:48)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:189)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createAndRegisterDriver(WebDriverThreadLocalContainer.java:174)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:136)
-	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:113)
-	at com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)
-	at com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:211)
-	at com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:70)
-	at com.codeborne.selenide.logevents.SelenideLogger.lambda$run$0(SelenideLogger.java:105)
-	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
-	at com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:104)
-	at com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:68)
-	at com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:31)
-	at com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:93)
-	at com.codeborne.selenide.Selenide.open(Selenide.java:53)
-	at tests.Birds.priceEurAndRub(Birds.java:123)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="user(String)[1]"></a>
-<h3 class="failures">При вводе не корректной почты &quot;яяяяя@яяяя.яя&quot; появляется предупреждение</h3>
-<span class="code">
-<pre>java.lang.NullPointerException: Cannot invoke &quot;String.toLowerCase(java.util.Locale)&quot; because &quot;browser.name&quot; is null
-	at com.codeborne.selenide.webdriver.WebDriverFactory.findFactory(WebDriverFactory.java:125)
-	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriverInstance(WebDriverFactory.java:110)
-	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:67)
-	at com.codeborne.selenide.drivercommands.CreateDriverCommand.lambda$createDriver$0(CreateDriverCommand.java:72)
-	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
-	at com.codeborne.selenide.logevents.SelenideLogger.get(SelenideLogger.java:113)
-	at com.codeborne.selenide.drivercommands.CreateDriverCommand.createDriver(CreateDriverCommand.java:48)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:189)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createAndRegisterDriver(WebDriverThreadLocalContainer.java:174)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:136)
-	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:113)
-	at com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)
-	at com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:211)
-	at com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:70)
-	at com.codeborne.selenide.logevents.SelenideLogger.lambda$run$0(SelenideLogger.java:105)
-	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
-	at com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:104)
-	at com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:68)
-	at com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:31)
-	at com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:93)
-	at com.codeborne.selenide.Selenide.open(Selenide.java:53)
-	at pages.BirdsLoginPage.openPage(BirdsLoginPage.java:23)
-	at tests.Birds.lambda$user$0(Birds.java:54)
-	at io.qameta.allure.Allure.lambda$step$0(Allure.java:112)
-	at io.qameta.allure.Allure.lambda$step$1(Allure.java:126)
-	at io.qameta.allure.Allure.step(Allure.java:180)
-	at io.qameta.allure.Allure.step(Allure.java:124)
-	at io.qameta.allure.Allure.step(Allure.java:111)
-	at tests.Birds.user(Birds.java:52)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="user(String)[2]"></a>
-<h3 class="failures">При вводе не корректной почты &quot;1111111@1111.11&quot; появляется предупреждение</h3>
-<span class="code">
-<pre>java.lang.NullPointerException: Cannot invoke &quot;String.toLowerCase(java.util.Locale)&quot; because &quot;browser.name&quot; is null
-	at com.codeborne.selenide.webdriver.WebDriverFactory.findFactory(WebDriverFactory.java:125)
-	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriverInstance(WebDriverFactory.java:110)
-	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:67)
-	at com.codeborne.selenide.drivercommands.CreateDriverCommand.lambda$createDriver$0(CreateDriverCommand.java:72)
-	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
-	at com.codeborne.selenide.logevents.SelenideLogger.get(SelenideLogger.java:113)
-	at com.codeborne.selenide.drivercommands.CreateDriverCommand.createDriver(CreateDriverCommand.java:48)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:189)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createAndRegisterDriver(WebDriverThreadLocalContainer.java:174)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:136)
-	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:113)
-	at com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)
-	at com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:211)
-	at com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:70)
-	at com.codeborne.selenide.logevents.SelenideLogger.lambda$run$0(SelenideLogger.java:105)
-	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
-	at com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:104)
-	at com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:68)
-	at com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:31)
-	at com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:93)
-	at com.codeborne.selenide.Selenide.open(Selenide.java:53)
-	at pages.BirdsLoginPage.openPage(BirdsLoginPage.java:23)
-	at tests.Birds.lambda$user$0(Birds.java:54)
-	at io.qameta.allure.Allure.lambda$step$0(Allure.java:112)
-	at io.qameta.allure.Allure.lambda$step$1(Allure.java:126)
-	at io.qameta.allure.Allure.step(Allure.java:180)
-	at io.qameta.allure.Allure.step(Allure.java:124)
-	at io.qameta.allure.Allure.step(Allure.java:111)
-	at tests.Birds.user(Birds.java:52)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="user(String)[3]"></a>
-<h3 class="failures">При вводе не корректной почты &quot;qqqqqq@qqq.qq&quot; появляется предупреждение</h3>
-<span class="code">
-<pre>java.lang.NullPointerException: Cannot invoke &quot;String.toLowerCase(java.util.Locale)&quot; because &quot;browser.name&quot; is null
-	at com.codeborne.selenide.webdriver.WebDriverFactory.findFactory(WebDriverFactory.java:125)
-	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriverInstance(WebDriverFactory.java:110)
-	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:67)
-	at com.codeborne.selenide.drivercommands.CreateDriverCommand.lambda$createDriver$0(CreateDriverCommand.java:72)
-	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
-	at com.codeborne.selenide.logevents.SelenideLogger.get(SelenideLogger.java:113)
-	at com.codeborne.selenide.drivercommands.CreateDriverCommand.createDriver(CreateDriverCommand.java:48)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:189)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createAndRegisterDriver(WebDriverThreadLocalContainer.java:174)
-	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:136)
-	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:113)
-	at com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)
-	at com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:211)
-	at com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:70)
-	at com.codeborne.selenide.logevents.SelenideLogger.lambda$run$0(SelenideLogger.java:105)
-	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:133)
-	at com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:104)
-	at com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:68)
-	at com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:31)
-	at com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:93)
-	at com.codeborne.selenide.Selenide.open(Selenide.java:53)
-	at pages.BirdsLoginPage.openPage(BirdsLoginPage.java:23)
-	at tests.Birds.lambda$user$0(Birds.java:54)
-	at io.qameta.allure.Allure.lambda$step$0(Allure.java:112)
-	at io.qameta.allure.Allure.lambda$step$1(Allure.java:126)
-	at io.qameta.allure.Allure.step(Allure.java:180)
-	at io.qameta.allure.Allure.step(Allure.java:124)
-	at io.qameta.allure.Allure.step(Allure.java:111)
-	at tests.Birds.user(Birds.java:52)
-</pre>
-</span>
-</div>
-</div>
 <div class="tab">
 <h2>Tests</h2>
 <table>
@@ -682,88 +79,88 @@
 </tr>
 </thead>
 <tr>
-<td class="failures">правильный пароль &quot;1234561111111111111111&quot; появляется предупреждение &quot;Неверный логин или пароль.&quot;</td>
-<td class="failures">fieldLoginEmpty(String, String)[1]</td>
-<td class="failures">0.009s</td>
-<td class="failures">failed</td>
+<td class="success">правильный пароль &quot;1234561111111111111111&quot; появляется предупреждение &quot;Неверный логин или пароль.&quot;</td>
+<td class="success">fieldLoginEmpty(String, String)[1]</td>
+<td class="success">10.079s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">правильный пароль &quot;УУУУУУУУУУУУ&quot; появляется предупреждение &quot;Неверный логин или пароль.&quot;</td>
-<td class="failures">fieldLoginEmpty(String, String)[2]</td>
-<td class="failures">0.008s</td>
-<td class="failures">failed</td>
+<td class="success">правильный пароль &quot;УУУУУУУУУУУУ&quot; появляется предупреждение &quot;Неверный логин или пароль.&quot;</td>
+<td class="success">fieldLoginEmpty(String, String)[2]</td>
+<td class="success">11.559s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">Вводиться неверный пароль &quot;1&quot; и появляется предупреждение &quot;Неверный логин или пароль.&quot;</td>
-<td class="failures">fieldNotCorrectPassword(String, String)[1]</td>
-<td class="failures">0.018s</td>
-<td class="failures">failed</td>
+<td class="success">Вводиться неверный пароль &quot;1&quot; и появляется предупреждение &quot;Неверный логин или пароль.&quot;</td>
+<td class="success">fieldNotCorrectPassword(String, String)[1]</td>
+<td class="success">13.776s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">Вводиться неверный пароль &quot;dfgdfgfdg&quot; и появляется предупреждение &quot;Неверный логин или пароль.&quot;</td>
-<td class="failures">fieldNotCorrectPassword(String, String)[2]</td>
-<td class="failures">0.011s</td>
-<td class="failures">failed</td>
+<td class="success">Вводиться неверный пароль &quot;dfgdfgfdg&quot; и появляется предупреждение &quot;Неверный логин или пароль.&quot;</td>
+<td class="success">fieldNotCorrectPassword(String, String)[2]</td>
+<td class="success">12.961s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">Вводиться неверный пароль &quot;2&quot; и появляется предупреждение &quot;Неверный логин или пароль.&quot;</td>
-<td class="failures">fieldNotCorrectPassword(String, String)[3]</td>
-<td class="failures">0.009s</td>
-<td class="failures">failed</td>
+<td class="success">Вводиться неверный пароль &quot;2&quot; и появляется предупреждение &quot;Неверный логин или пароль.&quot;</td>
+<td class="success">fieldNotCorrectPassword(String, String)[3]</td>
+<td class="success">12.412s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">Вводиться неверный пароль &quot;!!!!!!!&quot; и появляется предупреждение &quot;Неверный логин или пароль.&quot;</td>
-<td class="failures">fieldNotCorrectPassword(String, String)[4]</td>
-<td class="failures">0.011s</td>
-<td class="failures">failed</td>
+<td class="success">Вводиться неверный пароль &quot;!!!!!!!&quot; и появляется предупреждение &quot;Неверный логин или пароль.&quot;</td>
+<td class="success">fieldNotCorrectPassword(String, String)[4]</td>
+<td class="success">11.883s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">Вводиться неверный пароль &quot;********&quot; и появляется предупреждение &quot;Неверный логин или пароль.&quot;</td>
-<td class="failures">fieldNotCorrectPassword(String, String)[5]</td>
-<td class="failures">0.009s</td>
-<td class="failures">failed</td>
+<td class="success">Вводиться неверный пароль &quot;********&quot; и появляется предупреждение &quot;Неверный логин или пароль.&quot;</td>
+<td class="success">fieldNotCorrectPassword(String, String)[5]</td>
+<td class="success">11.955s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">Вводиться неверный пароль &quot;%*&amp;YJHJfg&quot; и появляется предупреждение &quot;Неверный логин или пароль.&quot;</td>
-<td class="failures">fieldNotCorrectPassword(String, String)[6]</td>
-<td class="failures">0.008s</td>
-<td class="failures">failed</td>
+<td class="success">Вводиться неверный пароль &quot;%*&amp;YJHJfg&quot; и появляется предупреждение &quot;Неверный логин или пароль.&quot;</td>
+<td class="success">fieldNotCorrectPassword(String, String)[6]</td>
+<td class="success">11.802s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">Вводиться неверный пароль &quot;GGGGGGGGG&quot; и появляется предупреждение &quot;Неверный логин или пароль.&quot;</td>
-<td class="failures">fieldNotCorrectPassword(String, String)[7]</td>
-<td class="failures">0.010s</td>
-<td class="failures">failed</td>
+<td class="success">Вводиться неверный пароль &quot;GGGGGGGGG&quot; и появляется предупреждение &quot;Неверный логин или пароль.&quot;</td>
+<td class="success">fieldNotCorrectPassword(String, String)[7]</td>
+<td class="success">13.162s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">Вводиться неверный пароль &quot;00000-0000&quot; и появляется предупреждение &quot;Неверный логин или пароль.&quot;</td>
-<td class="failures">fieldNotCorrectPassword(String, String)[8]</td>
-<td class="failures">0.015s</td>
-<td class="failures">failed</td>
+<td class="success">Вводиться неверный пароль &quot;00000-0000&quot; и появляется предупреждение &quot;Неверный логин или пароль.&quot;</td>
+<td class="success">fieldNotCorrectPassword(String, String)[8]</td>
+<td class="success">16.148s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">Вводиться неверный пароль &quot;30&quot; и появляется предупреждение &quot;Неверный логин или пароль.&quot;</td>
-<td class="failures">fieldNotCorrectPassword(String, String)[9]</td>
-<td class="failures">0.009s</td>
-<td class="failures">failed</td>
+<td class="success">Вводиться неверный пароль &quot;30&quot; и появляется предупреждение &quot;Неверный логин или пароль.&quot;</td>
+<td class="success">fieldNotCorrectPassword(String, String)[9]</td>
+<td class="success">11.420s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">Проверяем что есть предупреждение о куках</td>
-<td class="failures">fillFormTests()</td>
-<td class="failures">0.009s</td>
-<td class="failures">failed</td>
+<td class="success">Проверяем что есть предупреждение о куках</td>
+<td class="success">fillFormTests()</td>
+<td class="success">8.669s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">[1] RU</td>
-<td class="failures">priceEurAndRub(Language)[1]</td>
-<td class="failures">0.145s</td>
-<td class="failures">failed</td>
+<td class="success">[1] RU</td>
+<td class="success">priceEurAndRub(Language)[1]</td>
+<td class="success">9.357s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">[2] EN</td>
-<td class="failures">priceEurAndRub(Language)[2]</td>
-<td class="failures">0.014s</td>
-<td class="failures">failed</td>
+<td class="success">[2] EN</td>
+<td class="success">priceEurAndRub(Language)[2]</td>
+<td class="success">7.899s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
 <td class="skipped">siteShouldHaveRusAndEndButton(Language, List)</td>
@@ -772,22 +169,22 @@
 <td class="skipped">ignored</td>
 </tr>
 <tr>
-<td class="failures">При вводе не корректной почты &quot;яяяяя@яяяя.яя&quot; появляется предупреждение</td>
-<td class="failures">user(String)[1]</td>
-<td class="failures">0.010s</td>
-<td class="failures">failed</td>
+<td class="success">При вводе не корректной почты &quot;яяяяя@яяяя.яя&quot; появляется предупреждение</td>
+<td class="success">user(String)[1]</td>
+<td class="success">10.504s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">При вводе не корректной почты &quot;1111111@1111.11&quot; появляется предупреждение</td>
-<td class="failures">user(String)[2]</td>
-<td class="failures">0.026s</td>
-<td class="failures">failed</td>
+<td class="success">При вводе не корректной почты &quot;1111111@1111.11&quot; появляется предупреждение</td>
+<td class="success">user(String)[2]</td>
+<td class="success">11.365s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">При вводе не корректной почты &quot;qqqqqq@qqq.qq&quot; появляется предупреждение</td>
-<td class="failures">user(String)[3]</td>
-<td class="failures">0.009s</td>
-<td class="failures">failed</td>
+<td class="success">При вводе не корректной почты &quot;qqqqqq@qqq.qq&quot; появляется предупреждение</td>
+<td class="success">user(String)[3]</td>
+<td class="success">11.003s</td>
+<td class="success">passed</td>
 </tr>
 </table>
 </div>
@@ -795,22 +192,159 @@
 <h2>Standard error</h2>
 <span class="code">
 <pre>[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=128.0.6613.137 Platform=linux
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.2.0
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.18.1 build revision: b1d3319b48
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -&gt; RemoteWebDriver: chrome on linux (10e8510bc2e97fcd885c4e1400cd9524), downloadsFolder: null
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (10e8510bc2e97fcd885c4e1400cd9524), proxy=null, downloadsFolder=null] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Add shutdown hook in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -&gt; RemoteWebDriver: chrome on linux (10e8510bc2e97fcd885c4e1400cd9524)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 117 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (null), proxy=null, downloadsFolder=null] in 1 [size=0]
 [Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=128.0.6613.137 Platform=linux
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.2.0
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.18.1 build revision: b1d3319b48
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -&gt; RemoteWebDriver: chrome on linux (4f529491c1070b7dbd51584e732cd9a6), downloadsFolder: null
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (4f529491c1070b7dbd51584e732cd9a6), proxy=null, downloadsFolder=null] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -&gt; RemoteWebDriver: chrome on linux (4f529491c1070b7dbd51584e732cd9a6)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 112 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (null), proxy=null, downloadsFolder=null] in 1 [size=0]
 [Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=128.0.6613.137 Platform=linux
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.2.0
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.18.1 build revision: b1d3319b48
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -&gt; RemoteWebDriver: chrome on linux (705b8aa31de6c657451b6cdb18b8e5b3), downloadsFolder: null
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (705b8aa31de6c657451b6cdb18b8e5b3), proxy=null, downloadsFolder=null] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -&gt; RemoteWebDriver: chrome on linux (705b8aa31de6c657451b6cdb18b8e5b3)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 253 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (null), proxy=null, downloadsFolder=null] in 1 [size=0]
 [Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=128.0.6613.137 Platform=linux
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.2.0
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.18.1 build revision: b1d3319b48
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -&gt; RemoteWebDriver: chrome on linux (02da8b29c8c71ce9100a84abfb483fb2), downloadsFolder: null
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (02da8b29c8c71ce9100a84abfb483fb2), proxy=null, downloadsFolder=null] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -&gt; RemoteWebDriver: chrome on linux (02da8b29c8c71ce9100a84abfb483fb2)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 109 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (null), proxy=null, downloadsFolder=null] in 1 [size=0]
 [Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=128.0.6613.137 Platform=linux
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.2.0
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.18.1 build revision: b1d3319b48
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -&gt; RemoteWebDriver: chrome on linux (6bb76b86a1f24ba391752eb79fc324c8), downloadsFolder: null
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (6bb76b86a1f24ba391752eb79fc324c8), proxy=null, downloadsFolder=null] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -&gt; RemoteWebDriver: chrome on linux (6bb76b86a1f24ba391752eb79fc324c8)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 113 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (null), proxy=null, downloadsFolder=null] in 1 [size=0]
 [Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=128.0.6613.137 Platform=linux
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.2.0
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.18.1 build revision: b1d3319b48
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -&gt; RemoteWebDriver: chrome on linux (3d40e49ac13677c15481a7da7d8deb11), downloadsFolder: null
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (3d40e49ac13677c15481a7da7d8deb11), proxy=null, downloadsFolder=null] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -&gt; RemoteWebDriver: chrome on linux (3d40e49ac13677c15481a7da7d8deb11)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 99 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (null), proxy=null, downloadsFolder=null] in 1 [size=0]
 [Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=128.0.6613.137 Platform=linux
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.2.0
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.18.1 build revision: b1d3319b48
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -&gt; RemoteWebDriver: chrome on linux (9a2e67d4f730490700401c883bea1668), downloadsFolder: null
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (9a2e67d4f730490700401c883bea1668), proxy=null, downloadsFolder=null] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -&gt; RemoteWebDriver: chrome on linux (9a2e67d4f730490700401c883bea1668)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 267 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (null), proxy=null, downloadsFolder=null] in 1 [size=0]
 [Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=128.0.6613.137 Platform=linux
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.2.0
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.18.1 build revision: b1d3319b48
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -&gt; RemoteWebDriver: chrome on linux (1868ff658dc2dc5188b414ee098676f4), downloadsFolder: null
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (1868ff658dc2dc5188b414ee098676f4), proxy=null, downloadsFolder=null] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -&gt; RemoteWebDriver: chrome on linux (1868ff658dc2dc5188b414ee098676f4)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 106 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (null), proxy=null, downloadsFolder=null] in 1 [size=0]
 [Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=128.0.6613.137 Platform=linux
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.2.0
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.18.1 build revision: b1d3319b48
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -&gt; RemoteWebDriver: chrome on linux (97d9855d94f55a8ff13f827dc658ffb3), downloadsFolder: null
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (97d9855d94f55a8ff13f827dc658ffb3), proxy=null, downloadsFolder=null] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -&gt; RemoteWebDriver: chrome on linux (97d9855d94f55a8ff13f827dc658ffb3)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 109 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (null), proxy=null, downloadsFolder=null] in 1 [size=0]
 [Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=128.0.6613.137 Platform=linux
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.2.0
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.18.1 build revision: b1d3319b48
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -&gt; RemoteWebDriver: chrome on linux (6980bb3a20b479beef8f7df6da85f7b1), downloadsFolder: null
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (6980bb3a20b479beef8f7df6da85f7b1), proxy=null, downloadsFolder=null] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -&gt; RemoteWebDriver: chrome on linux (6980bb3a20b479beef8f7df6da85f7b1)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 208 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (null), proxy=null, downloadsFolder=null] in 1 [size=0]
 [Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=128.0.6613.137 Platform=linux
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.2.0
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.18.1 build revision: b1d3319b48
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -&gt; RemoteWebDriver: chrome on linux (13909de6db0174dbeed570fa482566b5), downloadsFolder: null
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (13909de6db0174dbeed570fa482566b5), proxy=null, downloadsFolder=null] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -&gt; RemoteWebDriver: chrome on linux (13909de6db0174dbeed570fa482566b5)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 105 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (null), proxy=null, downloadsFolder=null] in 1 [size=0]
 [Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=128.0.6613.137 Platform=linux
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.2.0
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.18.1 build revision: b1d3319b48
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -&gt; RemoteWebDriver: chrome on linux (e1e79a23fd402eb5b583cdc389b53590), downloadsFolder: null
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (e1e79a23fd402eb5b583cdc389b53590), proxy=null, downloadsFolder=null] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -&gt; RemoteWebDriver: chrome on linux (e1e79a23fd402eb5b583cdc389b53590)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 156 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (null), proxy=null, downloadsFolder=null] in 1 [size=0]
 [Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=128.0.6613.137 Platform=linux
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.2.0
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.18.1 build revision: b1d3319b48
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -&gt; RemoteWebDriver: chrome on linux (89b022384bb949e42f5d8350b163200f), downloadsFolder: null
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (89b022384bb949e42f5d8350b163200f), proxy=null, downloadsFolder=null] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -&gt; RemoteWebDriver: chrome on linux (89b022384bb949e42f5d8350b163200f)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 103 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (null), proxy=null, downloadsFolder=null] in 1 [size=0]
 [Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=128.0.6613.137 Platform=linux
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.2.0
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.18.1 build revision: b1d3319b48
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -&gt; RemoteWebDriver: chrome on linux (dec5ad1381cbdfc9257abf5fc7d1691e), downloadsFolder: null
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (dec5ad1381cbdfc9257abf5fc7d1691e), proxy=null, downloadsFolder=null] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -&gt; RemoteWebDriver: chrome on linux (dec5ad1381cbdfc9257abf5fc7d1691e)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 160 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (null), proxy=null, downloadsFolder=null] in 1 [size=0]
 [Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=128.0.6613.137 Platform=linux
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.2.0
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.18.1 build revision: b1d3319b48
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -&gt; RemoteWebDriver: chrome on linux (d04d9d6e90e07fdab6c94cb55a498b25), downloadsFolder: null
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (d04d9d6e90e07fdab6c94cb55a498b25), proxy=null, downloadsFolder=null] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -&gt; RemoteWebDriver: chrome on linux (d04d9d6e90e07fdab6c94cb55a498b25)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 101 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (null), proxy=null, downloadsFolder=null] in 1 [size=0]
 [Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=128.0.6613.137 Platform=linux
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.2.0
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.18.1 build revision: b1d3319b48
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -&gt; RemoteWebDriver: chrome on linux (ae8a72988415702b1076547131ac5770), downloadsFolder: null
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (ae8a72988415702b1076547131ac5770), proxy=null, downloadsFolder=null] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -&gt; RemoteWebDriver: chrome on linux (ae8a72988415702b1076547131ac5770)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 107 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (null), proxy=null, downloadsFolder=null] in 1 [size=0]
 [Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=128.0.6613.137 Platform=linux
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.2.0
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.18.1 build revision: b1d3319b48
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -&gt; RemoteWebDriver: chrome on linux (2259ca0de8e8b1c6af867f5674b7d0f8), downloadsFolder: null
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (2259ca0de8e8b1c6af867f5674b7d0f8), proxy=null, downloadsFolder=null] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -&gt; RemoteWebDriver: chrome on linux (2259ca0de8e8b1c6af867f5674b7d0f8)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 108 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=RemoteWebDriver: chrome on linux (null), proxy=null, downloadsFolder=null] in 1 [size=0]
 </pre>
 </span>
 </div>
@@ -822,7 +356,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="https://www.gradle.org">Gradle 8.13</a> at 10 июн. 2026 г., 23:20:00</p>
+<a href="https://www.gradle.org">Gradle 8.13</a> at 10 июн. 2026 г., 23:27:46</p>
 </div>
 </div>
 </body>

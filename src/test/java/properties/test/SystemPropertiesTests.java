@@ -1,12 +1,12 @@
-//package properties.test;
+package properties.test;
 
-//import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Test;
 
-//public class SystemPropertiesTests {
-    //@Test
-    //void systemPropertiesTests(){
-        //System.setProperty("browser", "firefox");
-        //String browser = System.getProperty("browser");
-        //System.out.println(browser);
-    //};
-//}
+public class SystemPropertiesTests {
+    @Test
+    void systemPropertiesTests(){
+        System.setProperty("browser", "chrome");
+        String browser = System.getProperty("browser");
+        System.out.println(browser);
+    };
+}
