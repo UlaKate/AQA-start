@@ -14,24 +14,10 @@ import java.util.Map;
 public class TestBase {
     @BeforeAll
     static void BeforeAll() {
-        System.out.println("========== ДИАГНОСТИКА ==========");
-        String browserParam = System.getProperty("browser", "opera");
-        System.out.println("System.getProperty('browser'): " + browserParam);
 
-        // Какой браузер установлен ДО
-        System.out.println("Configuration.browser BEFORE: " + Configuration.browser);
 
-        if (browserParam != null) {
-            Configuration.browser = browserParam;
-        } else {
-            Configuration.browser = "chrome";
-        }
 
-        // Какой браузер установлен ПОСЛЕ
-        System.out.println("Configuration.browser AFTER: " + Configuration.browser);
-        System.out.println("========== КОНЕЦ ДИАГНОСТИКИ ==========");
-
-        Configuration.browser = System.getProperty("browser", "chrome");
+        Configuration.browser = System.getProperty("browser", "opera");
         Configuration.browserSize = "1366x768";
         Configuration.baseUrl = "https://demoqa.com";
         //Configuration.holdBrowserOpen = false;
