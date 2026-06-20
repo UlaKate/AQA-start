@@ -46,6 +46,7 @@ public class TextBoxtestsWithPO extends TestBase {
                        .scrinshots("Делаем скриншот страницы");
                         attachment("Source", webdriver().driver().source());
 
+
            });
 
            step("Вводим персональный данные", () -> {

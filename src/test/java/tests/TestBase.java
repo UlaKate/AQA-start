@@ -31,6 +31,7 @@ public class TestBase {
     @AfterEach
     void afterEach(){
         Attach.addVideo();
+        Attach.browserConsoleLogs();
         WebDriverRunner.closeWebDriver();
     }
 }

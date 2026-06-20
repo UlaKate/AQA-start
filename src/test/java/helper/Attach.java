@@ -1,11 +1,13 @@
 package helper;
 
+import com.codeborne.selenide.Selenide;
 import io.qameta.allure.Attachment;
 
 import java.net.MalformedURLException;
 import java.net.URL;
 
 import static com.codeborne.selenide.Selenide.sessionId;
+import static org.openqa.selenium.logging.LogType.BROWSER;
 
 public class Attach {
     @Attachment(value = "Video", type = "text/html", fileExtension = ".html")
@@ -23,5 +25,17 @@ public class Attach {
             e.printStackTrace();
         }
         return null;
+    }
+
+    @Attachment(value = "{attachName}", type = "text/plain")
+    public static String attachAsText(String attachName, String message) {
+        return message;
+    }
+
+    public static void browserConsoleLogs() {
+        attachAsText(
+                "Browser console logs",
+                String.join("\n", Selenide.getWebDriverLogs(BROWSER))
+        );
     }
 }
