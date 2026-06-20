@@ -19,13 +19,13 @@ public class BaseBirds {
         //Configuration.baseUrl = "https://bb1birds.ru/";
         //Configuration.holdBrowserOpen = true;
         SelenideLogger.addListener("allure", new AllureSelenide());
-        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
+        Configuration.remote = "http://192.168.1.74:4444/wd/hub";
         Configuration.holdBrowserOpen = false;
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("selenoid:options", Map.<String, Object>of(
                 "enableVNC", true,
-                "enableVideo", true
+                "enableVideo", false
         ));
         Configuration.browserCapabilities = capabilities;
 
