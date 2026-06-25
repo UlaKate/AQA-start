@@ -18,12 +18,12 @@ public class TestBase {
         Configuration.browserSize = "1366x768";
         Configuration.baseUrl = "https://demoqa.com";
         //Configuration.holdBrowserOpen = false;
-        Configuration.remote = "http://192.168.1.74:4444/wd/hub";
+        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("selenoid:options", Map.<String, Object>of(
                 "enableVNC", true,
-                "enableVideo", false
+                "enableVideo", true
         ));
         Configuration.browserCapabilities = capabilities;
     }
