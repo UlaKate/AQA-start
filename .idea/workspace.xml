@@ -5,12 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6bb35d52-a11d-4312-bdf3-1cb8c3a78ad4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.StatusTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.StatusTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/tests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-tests.StatusTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-tests.StatusTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/StatusTests.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/StatusTests.class.uniqueId0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/StatusTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/StatusTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,43 +84,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.AQA-start [allureServe].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Birds.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Birds.fieldLoginEmpty.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Birds.fieldNotCorrectPassword.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Birds.fieldPasswordEmpty.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Birds.fillFormTests.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Birds.priceEurAndRub.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Birds.siteShouldHaveRusAndEndButton.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Birds.user.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FileParsingTest.csvFileParsingTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FileParsingTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FileParsingTest.jsonFileParsingImproovedTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FileParsingTest.jsonFileParsingTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FileParsingTest.pdfFileParsingTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FileParsingTest.xslsFileParsingTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FileParsingTest.zipFileParsingTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SelenideFilesTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SelenideFilesTest.uploadFileTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SystemPropertiesTests.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.TextBoxtests.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.TextBoxtests.fillFormTests.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.TextBoxtestsWithPO.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.TextBoxtestsWithPO.fillFormTests.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.TextBoxtestsWithPO.fillRequiredFields.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.TextBoxtestsWithPO.missFillingFields.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/AQA/AQA-start/src/test/resources&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.AQA-start [allureServe].executor": "Run",
+    "Gradle.Birds.executor": "Run",
+    "Gradle.Birds.fieldLoginEmpty.executor": "Run",
+    "Gradle.Birds.fieldNotCorrectPassword.executor": "Run",
+    "Gradle.Birds.fieldPasswordEmpty.executor": "Run",
+    "Gradle.Birds.fillFormTests.executor": "Run",
+    "Gradle.Birds.priceEurAndRub.executor": "Run",
+    "Gradle.Birds.siteShouldHaveRusAndEndButton.executor": "Run",
+    "Gradle.Birds.user.executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
+    "Gradle.FileParsingTest.csvFileParsingTest.executor": "Run",
+    "Gradle.FileParsingTest.executor": "Run",
+    "Gradle.FileParsingTest.jsonFileParsingImproovedTest.executor": "Run",
+    "Gradle.FileParsingTest.jsonFileParsingTest.executor": "Run",
+    "Gradle.FileParsingTest.pdfFileParsingTest.executor": "Run",
+    "Gradle.FileParsingTest.xslsFileParsingTest.executor": "Run",
+    "Gradle.FileParsingTest.zipFileParsingTest.executor": "Run",
+    "Gradle.SelenideFilesTest.executor": "Run",
+    "Gradle.SelenideFilesTest.uploadFileTest.executor": "Run",
+    "Gradle.StatusTests.checkStatus.executor": "Run",
+    "Gradle.StatusTests.checkStatusWithLog.executor": "Run",
+    "Gradle.StatusTests.checkTotalWithLogs.executor": "Run",
+    "Gradle.StatusTests.checkTotalWithSomeLogs.executor": "Run",
+    "Gradle.StatusTests.checkTotalWithStatusLogs.executor": "Run",
+    "Gradle.SystemPropertiesTests.executor": "Run",
+    "Gradle.TextBoxtests.executor": "Run",
+    "Gradle.TextBoxtests.fillFormTests.executor": "Run",
+    "Gradle.TextBoxtestsWithPO.executor": "Run",
+    "Gradle.TextBoxtestsWithPO.fillFormTests.executor": "Run",
+    "Gradle.TextBoxtestsWithPO.fillRequiredFields.executor": "Run",
+    "Gradle.TextBoxtestsWithPO.missFillingFields.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/AQA/AQA-start/src/test/resources",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\AQA\AQA-start\src\test\resources" />
@@ -117,79 +134,7 @@
       <recent name="C:\AQA\AQA-start\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.StatusTests.checkStatus">
-    <configuration name="Birds" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.Birds&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="Birds.fieldLoginEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.Birds.fieldLoginEmpty&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="Birds.user" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.Birds.user&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.StatusTests.checkTotalWithStatusLogs">
     <configuration name="StatusTests.checkStatus" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -214,7 +159,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TextBoxtestsWithPO" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StatusTests.checkStatusWithLog" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -227,7 +172,79 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.TextBoxtestsWithPO&quot;" />
+            <option value="&quot;tests.StatusTests.checkStatusWithLog&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="StatusTests.checkTotalWithLogs" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.StatusTests.checkTotalWithLogs&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="StatusTests.checkTotalWithSomeLogs" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.StatusTests.checkTotalWithSomeLogs&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="StatusTests.checkTotalWithStatusLogs" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.StatusTests.checkTotalWithStatusLogs&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -240,18 +257,18 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.StatusTests.checkStatus" />
-      <item itemvalue="Gradle.Birds.fieldLoginEmpty" />
-      <item itemvalue="Gradle.Birds.user" />
-      <item itemvalue="Gradle.Birds" />
-      <item itemvalue="Gradle.TextBoxtestsWithPO" />
+      <item itemvalue="Gradle.StatusTests.checkStatusWithLog" />
+      <item itemvalue="Gradle.StatusTests.checkTotalWithLogs" />
+      <item itemvalue="Gradle.StatusTests.checkTotalWithSomeLogs" />
+      <item itemvalue="Gradle.StatusTests.checkTotalWithStatusLogs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.StatusTests.checkTotalWithStatusLogs" />
+        <item itemvalue="Gradle.StatusTests.checkTotalWithSomeLogs" />
+        <item itemvalue="Gradle.StatusTests.checkTotalWithLogs" />
+        <item itemvalue="Gradle.StatusTests.checkStatusWithLog" />
         <item itemvalue="Gradle.StatusTests.checkStatus" />
-        <item itemvalue="Gradle.Birds.user" />
-        <item itemvalue="Gradle.Birds" />
-        <item itemvalue="Gradle.TextBoxtestsWithPO" />
-        <item itemvalue="Gradle.Birds.fieldLoginEmpty" />
       </list>
     </recent_temporary>
   </component>

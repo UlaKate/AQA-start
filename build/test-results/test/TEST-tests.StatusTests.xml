@@ -1,24 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.StatusTests" tests="1" skipped="0" failures="1" errors="0" timestamp="2026-06-28T14:05:38.255Z" hostname="KOMPUTER" time="2.982">
+<testsuite name="tests.StatusTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-06-28T16:29:57.028Z" hostname="KOMPUTER" time="4.329">
   <properties/>
-  <testcase name="checkStatus()" classname="tests.StatusTests" time="2.982">
-    <failure message="java.lang.AssertionError: 1 expectation failed.&#10;JSON path total doesn't match.&#10;Expected: is &lt;21&gt;&#10;  Actual: &lt;20&gt;&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
-JSON path total doesn't match.
-Expected: is &lt;21&gt;
-  Actual: &lt;20&gt;
-
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:274)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:121)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
-	at tests.StatusTests.checkStatus(StatusTests.java:13)
-</failure>
-  </testcase>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="checkTotalWithStatusLogs()" classname="tests.StatusTests" time="4.329"/>
+  <system-out><![CDATA[Request URI:	https://selenoid.autotests.cloud/status
+HTTP/1.1 200 OK
+{
+    "total": 20,
+    "used": 0,
+    "queued": 0,
+    "pending": 0,
+    "browsers": {
+        "chrome": {
+            "128.0": {
+                
+            },
+            "146.0": {
+                
+            },
+            "147.0": {
+                
+            },
+            "148.0": {
+                
+            }
+        },
+        "firefox": {
+            "148.0": {
+                
+            },
+            "149.0": {
+                
+            },
+            "150.0": {
+                
+            }
+        },
+        "msedge": {
+            "143.0": {
+                
+            },
+            "144.0": {
+                
+            },
+            "145.0": {
+                
+            }
+        },
+        "playwright-chrome": {
+            "1.60.0": {
+                
+            },
+            "1.61.0": {
+                
+            },
+            "1.61.1": {
+                
+            }
+        },
+        "playwright-chromium": {
+            "1.46.0": {
+                
+            },
+            "1.60.0": {
+                
+            },
+            "1.61.0": {
+                
+            },
+            "1.61.1": {
+                
+            }
+        },
+        "playwright-firefox": {
+            "1.60.0": {
+                
+            },
+            "1.61.0": {
+                
+            },
+            "1.61.1": {
+                
+            }
+        },
+        "playwright-msedge": {
+            "1.60.0": {
+                
+            },
+            "1.61.0": {
+                
+            },
+            "1.61.1": {
+                
+            }
+        },
+        "playwright-webkit": {
+            "1.60.0": {
+                
+            },
+            "1.61.0": {
+                
+            },
+            "1.61.1": {
+                
+            }
+        }
+    }
+}
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

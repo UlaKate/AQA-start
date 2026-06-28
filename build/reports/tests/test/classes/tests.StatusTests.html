@@ -29,7 +29,7 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">1</div>
+<div class="counter">0</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">2.982s</div>
+<div class="counter">4.329s</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,8 +50,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox failures" id="successRate">
-<div class="percent">0%</div>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
 <p>successful</p>
 </div>
 </td>
@@ -61,37 +61,12 @@
 <div class="tab-container">
 <ul class="tabLinks">
 <li>
-<a href="#">Failed tests</a>
-</li>
-<li>
 <a href="#">Tests</a>
 </li>
+<li>
+<a href="#">Standard output</a>
+</li>
 </ul>
-<div class="tab">
-<h2>Failed tests</h2>
-<div class="test">
-<a name="checkStatus()"></a>
-<h3 class="failures">checkStatus()</h3>
-<span class="code">
-<pre>java.lang.AssertionError: 1 expectation failed.
-JSON path total doesn't match.
-Expected: is &lt;21&gt;
-  Actual: &lt;20&gt;
-
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:274)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:121)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
-	at tests.StatusTests.checkStatus(StatusTests.java:13)
-</pre>
-</span>
-</div>
-</div>
 <div class="tab">
 <h2>Tests</h2>
 <table>
@@ -103,11 +78,121 @@ Expected: is &lt;21&gt;
 </tr>
 </thead>
 <tr>
-<td class="failures">checkStatus()</td>
-<td class="failures">2.982s</td>
-<td class="failures">failed</td>
+<td class="success">checkTotalWithStatusLogs()</td>
+<td class="success">4.329s</td>
+<td class="success">passed</td>
 </tr>
 </table>
+</div>
+<div class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Request URI:	https://selenoid.autotests.cloud/status
+HTTP/1.1 200 OK
+{
+    &quot;total&quot;: 20,
+    &quot;used&quot;: 0,
+    &quot;queued&quot;: 0,
+    &quot;pending&quot;: 0,
+    &quot;browsers&quot;: {
+        &quot;chrome&quot;: {
+            &quot;128.0&quot;: {
+                
+            },
+            &quot;146.0&quot;: {
+                
+            },
+            &quot;147.0&quot;: {
+                
+            },
+            &quot;148.0&quot;: {
+                
+            }
+        },
+        &quot;firefox&quot;: {
+            &quot;148.0&quot;: {
+                
+            },
+            &quot;149.0&quot;: {
+                
+            },
+            &quot;150.0&quot;: {
+                
+            }
+        },
+        &quot;msedge&quot;: {
+            &quot;143.0&quot;: {
+                
+            },
+            &quot;144.0&quot;: {
+                
+            },
+            &quot;145.0&quot;: {
+                
+            }
+        },
+        &quot;playwright-chrome&quot;: {
+            &quot;1.60.0&quot;: {
+                
+            },
+            &quot;1.61.0&quot;: {
+                
+            },
+            &quot;1.61.1&quot;: {
+                
+            }
+        },
+        &quot;playwright-chromium&quot;: {
+            &quot;1.46.0&quot;: {
+                
+            },
+            &quot;1.60.0&quot;: {
+                
+            },
+            &quot;1.61.0&quot;: {
+                
+            },
+            &quot;1.61.1&quot;: {
+                
+            }
+        },
+        &quot;playwright-firefox&quot;: {
+            &quot;1.60.0&quot;: {
+                
+            },
+            &quot;1.61.0&quot;: {
+                
+            },
+            &quot;1.61.1&quot;: {
+                
+            }
+        },
+        &quot;playwright-msedge&quot;: {
+            &quot;1.60.0&quot;: {
+                
+            },
+            &quot;1.61.0&quot;: {
+                
+            },
+            &quot;1.61.1&quot;: {
+                
+            }
+        },
+        &quot;playwright-webkit&quot;: {
+            &quot;1.60.0&quot;: {
+                
+            },
+            &quot;1.61.0&quot;: {
+                
+            },
+            &quot;1.61.1&quot;: {
+                
+            }
+        }
+    }
+}
+</pre>
+</span>
 </div>
 </div>
 <div id="footer">
@@ -117,7 +202,7 @@ Expected: is &lt;21&gt;
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="https://www.gradle.org">Gradle 8.13</a> at 28 июн. 2026 г., 17:05:41</p>
+<a href="https://www.gradle.org">Gradle 8.13</a> at 28 июн. 2026 г., 19:30:01</p>
 </div>
 </div>
 </body>
