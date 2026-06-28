@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.ShopTestsApi" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-06-28T19:16:32.252Z" hostname="KOMPUTER" time="3.007">
+  <properties/>
+  <testcase name="unSuccessLoginTest()" classname="tests.ShopTestsApi" time="3.007"/>
+  <system-out><![CDATA[Request URI:	https://demoqa.com/Account/v1/GenerateToken
+HTTP/1.1 400 Bad Request
+{
+    "code": "1200",
+    "message": "UserName and Password required."
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

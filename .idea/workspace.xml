@@ -13,16 +13,16 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.StatusTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.StatusTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.StatusTests.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-tests.StatusTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-tests.StatusTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-tests.StatusTests.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/StatusTests.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/StatusTests.class.uniqueId0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/StatusTests.class.uniqueId0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/StatusTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/StatusTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ShopTestsApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ShopTestsApi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +105,8 @@
     "Gradle.FileParsingTest.zipFileParsingTest.executor": "Run",
     "Gradle.SelenideFilesTest.executor": "Run",
     "Gradle.SelenideFilesTest.uploadFileTest.executor": "Run",
+    "Gradle.ShopTestsApi.successLoginTest.executor": "Run",
+    "Gradle.ShopTestsApi.unSuccessLoginTest.executor": "Run",
     "Gradle.StatusTests.checkStatus.executor": "Run",
     "Gradle.StatusTests.checkStatusWithLog.executor": "Run",
     "Gradle.StatusTests.checkTotalWithLogs.executor": "Run",
@@ -134,8 +136,8 @@
       <recent name="C:\AQA\AQA-start\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.StatusTests.checkTotalWithStatusLogs">
-    <configuration name="StatusTests.checkStatus" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.ShopTestsApi.unSuccessLoginTest">
+    <configuration name="ShopTestsApi.successLoginTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -148,7 +150,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.StatusTests.checkStatus&quot;" />
+            <option value="&quot;tests.ShopTestsApi.successLoginTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -159,7 +161,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="StatusTests.checkStatusWithLog" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ShopTestsApi.unSuccessLoginTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -172,7 +174,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.StatusTests.checkStatusWithLog&quot;" />
+            <option value="&quot;tests.ShopTestsApi.unSuccessLoginTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -256,19 +258,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.StatusTests.checkStatus" />
-      <item itemvalue="Gradle.StatusTests.checkStatusWithLog" />
+      <item itemvalue="Gradle.ShopTestsApi.successLoginTest" />
+      <item itemvalue="Gradle.ShopTestsApi.unSuccessLoginTest" />
       <item itemvalue="Gradle.StatusTests.checkTotalWithLogs" />
       <item itemvalue="Gradle.StatusTests.checkTotalWithSomeLogs" />
       <item itemvalue="Gradle.StatusTests.checkTotalWithStatusLogs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ShopTestsApi.unSuccessLoginTest" />
+        <item itemvalue="Gradle.ShopTestsApi.successLoginTest" />
         <item itemvalue="Gradle.StatusTests.checkTotalWithStatusLogs" />
         <item itemvalue="Gradle.StatusTests.checkTotalWithSomeLogs" />
         <item itemvalue="Gradle.StatusTests.checkTotalWithLogs" />
-        <item itemvalue="Gradle.StatusTests.checkStatusWithLog" />
-        <item itemvalue="Gradle.StatusTests.checkStatus" />
       </list>
     </recent_temporary>
   </component>
